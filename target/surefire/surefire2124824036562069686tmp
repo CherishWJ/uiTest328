@@ -1,0 +1,6 @@
+#surefire
+#Mon Dec 24 16:56:44 CST 2018
+org.uncommons.reportng.escape-output=false
+user.dir=C\:\\workspace\\UIAutoTest
+localRepository=C\:\\workspace\\localRepository
+basedir=C\:\\workspace\\UIAutoTest

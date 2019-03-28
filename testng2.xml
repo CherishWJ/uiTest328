@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--测试套件配置文件的约束是有dtd文件控制的-->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--定义一个测试套件-->
+
+<suite name="万金油1.0-VIP端" preserve-order="true">
+    <!--定义一个测试集合-->
+
+
+    <!--<test name="关闭企业券">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip.closeqyq"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <test name="总管理员登录">
+        <classes>
+            <class name="com.ui.case2.tvip.rootLogin"></class>
+        </classes>
+    </test>
+
+
+    <test name="总部司机正常,重复，超额充值">
+        <classes>
+            <class name="com.ui.case2.tvip.chargeCase"></class>
+        </classes>
+    </test>
+
+    <test name="撤销总部司机待领取">
+        <classes>
+            <class name="com.ui.case2.tvip.revokeMoney"></class>
+        </classes>
+    </test>
+
+    <test name="回收和超额回收总部司机资金">
+        <classes>
+            <class name="com.ui.case2.tvip.backMoney"></class>
+        </classes>
+
+    </test>
+
+    <!--<test name="冻结和解冻总部司机资金">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.cases11.rvip.frozenMoney"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+
+    <test name="机构司机充值,重复，超额">
+        <classes>
+            <class name="com.ui.case2.tvip.chargeOrangeDriver"></class>
+        </classes>
+    </test>
+
+    <test name="机构司机撤销待领取">
+        <classes>
+            <class name="com.ui.case2.tvip.revokeOrganDriver"></class>
+        </classes>
+    </test>
+
+    <test name="机构司机回收和超额回收资金">
+        <classes>
+            <class name="com.ui.case2.tvip.backOrganDriver"></class>
+        </classes>
+
+    </test>
+
+    <!--<test name="机构司机冻结和解冻司机资金">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.cases11.rvip.frozenOrganDriver"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+
+    <test name="正常和超额机构充值">
+        <classes>
+            <class name="com.ui.case2.tvip.chargeOrgan"></class>
+        </classes>
+    </test>
+
+    <test name="正常和超额回收机构资金">
+        <classes>
+            <class name="com.ui.case2.tvip.backOragnMoney"></class>
+        </classes>
+    </test>
+    <test name="正常和超额企业转账">
+        <classes>
+            <class name="com.ui.case2.tvip.transferCase"></class>
+        </classes>
+    </test>
+
+
+    <test name="出纳登录">
+        <classes>
+            <class name="com.ui.case2.tvip_check.checkLogin"></class>
+        </classes>
+    </test>
+
+    <test name="出纳总部司机充值,重复，超额">
+        <classes>
+            <class name="com.ui.case2.tvip_check.chargeCase"></class>
+        </classes>
+    </test>
+
+    <test name="出纳回收和超额回收总部司机资金">
+        <classes>
+            <class name="com.ui.case2.tvip_check.backMoney"></class>
+        </classes>
+
+    </test>
+
+    <!--<test name="出纳冻结和解冻总部司机资金">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.cases11.rvip_check.frozenMoney"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+
+    <test name="出纳机构司机充值,重复，超额">
+        <classes>
+            <class name="com.ui.case2.tvip_check.chargeOrangeDriver"></class>
+        </classes>
+    </test>
+
+
+    <test name="出纳机构司机回收和超额回收资金">
+        <classes>
+            <class name="com.ui.case2.tvip_check.backOrganDriver"></class>
+        </classes>
+
+    </test>
+
+    <!--<test name="出纳机构司机冻结和解冻司机资金">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case21.rvip_check.frozenOrganDriver"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+
+    <test name="出纳正常和超额机构充值">
+        <classes>
+            <class name="com.ui.case2.tvip_check.chargeOrgan"></class>
+        </classes>
+    </test>
+
+    <test name="出纳正常和超额回收机构资金">
+        <classes>
+            <class name="com.ui.case2.tvip_check.backOragnMoney"></class>
+        </classes>
+    </test>
+    <test name="出纳正常和超额企业转账">
+        <classes>
+            <class name="com.ui.case2.tvip_check.transferCase"></class>
+        </classes>
+    </test>
+
+    <test name="机构无需审核登录">
+        <classes>
+            <class name="com.ui.case2.tvip_organ.organLogin"></class>
+        </classes>
+    </test>
+
+    <test name="机构无需审核司机充值，重复充值，超额充值">
+        <classes>
+            <class name="com.ui.case2.tvip_organ.chargeCase"></class>
+
+        </classes>
+    </test>
+
+    <test name="机构无需审核撤销机构司机待领取金额">
+        <classes>
+            <class name="com.ui.case2.tvip_organ.revokeMoney"></class>
+        </classes>
+    </test>
+
+    <test name="机构无需审核正常和超额回收机构司机金额">
+        <classes>
+            <class name="com.ui.case2.tvip_organ.backMoney"></class>
+        </classes>
+    </test>
+
+    <!--<test name="机构无需审核冻结和解冻机构司机资金">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.cases11.rvip_organ.frozenMoney"></class>-->
+        <!--</classes>-->
+
+    <!--</test>-->
+
+    <test name="机构无需审核正常和超额企业转账">
+        <classes>
+            <class name="com.ui.case2.tvip_organ.transferCase"></class>
+        </classes>
+
+    </test>
+
+
+    <test name="机构需审核登录">
+        <classes>
+            <class name="com.ui.case2.tvip_organ_check.organCheckLogin"></class>
+        </classes>
+    </test>
+    <test name="机构需审核司机充值，重复充值，超额充值">
+        <classes>
+            <class name="com.ui.case2.tvip_organ_check.chargeCase"></class>
+
+        </classes>
+    </test>
+
+
+    <test name="机构需审核正常和超额回收机构司机金额">
+        <classes>
+            <class name="com.ui.case2.tvip_organ_check.backMoney"></class>
+        </classes>
+    </test>
+
+    <!--<test name="机构需审核冻结和解冻机构司机资金">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.cases11.rvip_organ_check.frozenMoney"></class>-->
+        <!--</classes>-->
+
+    <!--</test>-->
+
+    <test name="机构需审核正常和超额企业转账">
+        <classes>
+            <class name="com.ui.case2.tvip_organ_check.transferCase"></class>
+        </classes>
+
+    </test>
+
+
+
+
+
+    <!--<test name="开启企业钱包">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq.openqyq"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+
+
+    <!--<test name="企业券——总管理员登录">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip.rootLogin"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="企业券-总部司机充值,重复，超额">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq.chargeCase"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="企业券-撤销总部司机待领取">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq.revokeMoney"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="企业券-回收和超额回收总部司机资金">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq.backMoney"></class>-->
+        <!--</classes>-->
+
+    <!--</test>-->
+
+    <!--&lt;!&ndash;<test name="企业券-冻结和解冻总部司机资金">&ndash;&gt;-->
+        <!--&lt;!&ndash;<classes>&ndash;&gt;-->
+            <!--&lt;!&ndash;<class name="com.ui.case2.rvip_qyq.frozenMoney"></class>&ndash;&gt;-->
+        <!--&lt;!&ndash;</classes>&ndash;&gt;-->
+    <!--&lt;!&ndash;</test>&ndash;&gt;-->
+
+
+    <!--<test name="企业券-机构司机充值,重复，超额">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq.chargeOrangeDriver"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="企业券-机构司机撤销待领取">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq.revokeOrganDriver"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="企业券-机构司机回收和超额回收资金">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq.backOrganDriver"></class>-->
+        <!--</classes>-->
+
+    <!--</test>-->
+
+    <!--&lt;!&ndash;<test name="企业券-机构司机冻结和解冻司机资金">&ndash;&gt;-->
+        <!--&lt;!&ndash;<classes>&ndash;&gt;-->
+            <!--&lt;!&ndash;<class name="com.ui.case2.rvip_qyq.frozenOrganDriver"></class>&ndash;&gt;-->
+        <!--&lt;!&ndash;</classes>&ndash;&gt;-->
+    <!--&lt;!&ndash;</test>&ndash;&gt;-->
+
+
+    <!--<test name="企业券-正常和超额机构充值">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq.chargeOrgan"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="企业券-正常和超额回收机构资金">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq.backOragnMoney"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="企业券-正常和超额企业转账">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq.transferCase"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="企业券——出纳登录">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_check.checkLogin"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="企业券-出纳给总部司机充值,重复，超额">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq_check.chargeCase"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+
+    <!--<test name="企业券-出纳回收和超额回收总部司机资金">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq_check.backMoney"></class>-->
+        <!--</classes>-->
+
+    <!--</test>-->
+
+    <!--&lt;!&ndash;<test name="企业券-出纳冻结和解冻总部司机资金">&ndash;&gt;-->
+        <!--&lt;!&ndash;<classes>&ndash;&gt;-->
+            <!--&lt;!&ndash;<class name="com.ui.case2.rvip_qyq_check.frozenMoney"></class>&ndash;&gt;-->
+        <!--&lt;!&ndash;</classes>&ndash;&gt;-->
+    <!--&lt;!&ndash;</test>&ndash;&gt;-->
+
+
+    <!--<test name="企业券-出纳机构司机充值,重复，超额">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq_check.chargeOrangeDriver"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+
+    <!--<test name="企业券-出纳机构司机回收和超额回收资金">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq_check.backOrganDriver"></class>-->
+        <!--</classes>-->
+
+    <!--</test>-->
+
+    <!--&lt;!&ndash;<test name="企业券-出纳机构司机冻结和解冻司机资金">&ndash;&gt;-->
+        <!--&lt;!&ndash;<classes>&ndash;&gt;-->
+            <!--&lt;!&ndash;<class name="com.ui.case2.rvip_qyq_check.frozenOrganDriver"></class>&ndash;&gt;-->
+        <!--&lt;!&ndash;</classes>&ndash;&gt;-->
+    <!--&lt;!&ndash;</test>&ndash;&gt;-->
+
+
+    <!--<test name="企业券-出纳正常和超额机构充值">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq_check.chargeOrgan"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="企业券-出纳正常和超额回收机构资金">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq_check.backOragnMoney"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="企业券-出纳正常和超额企业转账">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq_check.transferCase"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="企业券——机构无需审核登录">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_organ.organLogin"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+
+    <!--<test name="企业券-机构无需审核司机充值，重复充值，超额充值">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq_organ.chargeCase"></class>-->
+
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="企业券-机构无需审核撤销机构司机待领取金额">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq_organ.revokeMoney"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="企业券-机构无需审核正常和超额回收机构司机金额">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq_organ.backMoney"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--&lt;!&ndash;<test name="企业券-机构无需审核冻结和解冻机构司机资金">&ndash;&gt;-->
+        <!--&lt;!&ndash;<classes>&ndash;&gt;-->
+            <!--&lt;!&ndash;<class name="com.ui.case2.rvip_qyq_organ.frozenMoney"></class>&ndash;&gt;-->
+        <!--&lt;!&ndash;</classes>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;</test>&ndash;&gt;-->
+
+    <!--<test name="企业券-机构无需审核正常和超额企业转账">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq_organ.transferCase"></class>-->
+        <!--</classes>-->
+
+    <!--</test>-->
+
+    <!--<test name="企业券——机构需审核登录">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_organ_check.organCheckLogin"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="企业券-机构需审核司机充值，重复充值，超额充值">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq_organ_check.chargeCase"></class>-->
+
+        <!--</classes>-->
+    <!--</test>-->
+
+
+    <!--<test name="企业券-机构需审核正常和超额回收机构司机金额">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq_organ_check.backMoney"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--&lt;!&ndash;<test name="企业券-机构需审核冻结和解冻机构司机资金">&ndash;&gt;-->
+        <!--&lt;!&ndash;<classes>&ndash;&gt;-->
+            <!--&lt;!&ndash;<class name="com.ui.case2.rvip_qyq_organ_check.frozenMoney"></class>&ndash;&gt;-->
+        <!--&lt;!&ndash;</classes>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;</test>&ndash;&gt;-->
+
+    <!--<test name="企业券-机构需审核正常和超额企业转账">-->
+        <!--<classes>-->
+            <!--<class name="com.ui.case2.rvip_qyq_organ_check.transferCase"></class>-->
+        <!--</classes>-->
+
+    <!--</test>-->
+
+
+
+    <!---定义一个参数-->
+
+    <parameter name="browserType" value="chrome"></parameter>
+    <!--定义驱动文件相对路径-->
+    <parameter name="driverPath" value="src/main/resources/chromedriver.exe"></parameter>
+    <!--监听器的作用，套件执行过程中，会调用我们声明的监听器去执行-->
+    <listeners>
+        <listener class-name="com.ui.listeners.ExtentTestNGIReporterListener"></listener>
+        <!--reportng提供的报表生成类-->
+        <!--<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>-->
+        <!--截图失败保存-->
+        <listener class-name="com.ui.listeners.ReportListener"></listener>
+    </listeners>
+
+</suite>

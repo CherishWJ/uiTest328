@@ -1,0 +1,1448 @@
+2019-03-21 14:39:50,779 - com.ui.base.Base -INFO - 配置信息：浏览器类型:【chrome】，驱动文件路径：【src/main/resources/chromedriver.exe】
+2019-03-21 14:39:56,675 - com.ui.base.Base -INFO - *****打开chrome浏览器***
+2019-03-21 14:39:57,854 - com.ui.base.Base -INFO - 窗口最大化
+2019-03-21 14:40:00,848 - com.ui.base.Base -INFO - 根据{by:id,value:username}来定位【登陆页】页面的【手机号】元素
+2019-03-21 14:40:00,896 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:00,897 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> id: username]】中写入数据：【18311447530】
+2019-03-21 14:40:01,136 - com.ui.base.Base -INFO - 根据{by:name,value:password}来定位【登陆页】页面的【密码】元素
+2019-03-21 14:40:01,153 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:01,154 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> name: password]】中写入数据：【an1234】
+2019-03-21 14:40:01,220 - com.ui.base.Base -INFO - 根据{by:id,value:login_button}来定位【登陆页】页面的【登陆按钮】元素
+2019-03-21 14:40:01,236 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:01,316 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> id: login_button]】
+2019-03-21 14:40:02,320 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:40:08,141 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:08,239 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:40:10,240 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:40:10,263 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:10,280 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【320.10】
+2019-03-21 14:40:10,280 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【充值】页面的【司机会员按钮】元素
+2019-03-21 14:40:10,323 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:10,376 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 司机会员]】
+2019-03-21 14:40:10,376 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【充值】页面的【账户管理按钮】元素
+2019-03-21 14:40:10,501 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:12,118 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 账户管理]】
+2019-03-21 14:40:13,118 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[2]/td[9]}来定位【充值】页面的【总部待领取金额】元素
+2019-03-21 14:40:13,134 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:13,151 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[2]/td[9]]】元素文本值:【19.2】
+2019-03-21 14:40:13,151 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[2]/td[13]/a}来定位【充值】页面的【充值按钮】元素
+2019-03-21 14:40:13,166 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:13,225 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[2]/td[13]/a]】
+2019-03-21 14:40:14,225 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input}来定位【充值】页面的【充值金额】元素
+2019-03-21 14:40:14,243 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:14,243 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input]】中写入数据：【1.11】
+2019-03-21 14:40:15,334 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[3]/button[2]}来定位【充值】页面的【保存按钮】元素
+2019-03-21 14:40:15,348 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:15,407 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[3]/button[2]]】
+2019-03-21 14:40:16,407 - com.ui.base.Base -INFO - 根据{by:xpath,value:/html/body/div[9]/div/div/div/div[2]/button[2]}来定位【充值】页面的【确定按钮】元素
+2019-03-21 14:40:16,420 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:16,476 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: /html/body/div[9]/div/div/div/div[2]/button[2]]】
+2019-03-21 14:40:18,476 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='batchCreateUser']/div[1]/div/div/div[2]/button[2]}来定位【充值】页面的【关闭按钮】元素
+2019-03-21 14:40:18,491 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:18,545 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='batchCreateUser']/div[1]/div/div/div[2]/button[2]]】
+2019-03-21 14:40:21,980 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[2]/td[9]}来定位【充值】页面的【总部待领取金额】元素
+2019-03-21 14:40:21,996 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:22,012 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[2]/td[9]]】元素文本值:【20.31】
+2019-03-21 14:40:22,165 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:40:22,226 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:22,305 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:40:22,306 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:40:22,356 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:22,635 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:40:24,637 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:40:24,654 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:24,671 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【318.99】
+2019-03-21 14:40:24,673 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【318.99】,期望值为：【318.99】
+2019-03-21 14:40:24,674 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【20.31】,期望值为：【20.31】
+2019-03-21 14:40:25,676 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:40:25,712 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:25,766 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:40:27,767 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:40:27,779 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:27,788 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【318.99】
+2019-03-21 14:40:27,788 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【充值】页面的【司机会员按钮】元素
+2019-03-21 14:40:27,826 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:27,880 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 司机会员]】
+2019-03-21 14:40:27,880 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【充值】页面的【账户管理按钮】元素
+2019-03-21 14:40:28,000 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:29,887 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 账户管理]】
+2019-03-21 14:40:30,888 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[2]/td[9]}来定位【充值】页面的【总部待领取金额】元素
+2019-03-21 14:40:30,902 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:30,918 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[2]/td[9]]】元素文本值:【20.31】
+2019-03-21 14:40:30,919 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[2]/td[13]/a}来定位【充值】页面的【充值按钮】元素
+2019-03-21 14:40:30,932 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:30,989 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[2]/td[13]/a]】
+2019-03-21 14:40:31,990 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input}来定位【充值】页面的【充值金额】元素
+2019-03-21 14:40:32,006 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:32,007 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input]】中写入数据：【1.11】
+2019-03-21 14:40:33,087 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[3]/button[2]}来定位【充值】页面的【保存按钮】元素
+2019-03-21 14:40:33,104 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:33,166 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[3]/button[2]]】
+2019-03-21 14:40:34,168 - com.ui.base.Base -INFO - 根据{by:xpath,value:/html/body/div[9]/div/div/div/div[2]/button[2]}来定位【充值】页面的【确定按钮】元素
+2019-03-21 14:40:34,181 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:34,238 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: /html/body/div[9]/div/div/div/div[2]/button[2]]】
+2019-03-21 14:40:35,239 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[9]/div/div/div/div[1]/div}来定位【充值】页面的【错误提示】元素
+2019-03-21 14:40:35,255 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:35,273 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[9]/div/div/div/div[1]/div]】元素文本值:【同一金额、同一个账号3分钟内不能重复分配!】
+2019-03-21 14:40:36,274 - com.ui.base.Base -INFO - 根据{by:xpath,value:/html/body/div[9]/div/div/div/div[2]/button}来定位【充值】页面的【ok按钮】元素
+2019-03-21 14:40:36,287 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:36,341 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: /html/body/div[9]/div/div/div/div[2]/button]】
+2019-03-21 14:40:37,342 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[3]/button[1]}来定位【充值】页面的【关闭】元素
+2019-03-21 14:40:37,358 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:37,411 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[3]/button[1]]】
+2019-03-21 14:40:40,811 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[2]/td[9]}来定位【充值】页面的【总部待领取金额】元素
+2019-03-21 14:40:40,824 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:40,841 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[2]/td[9]]】元素文本值:【20.31】
+2019-03-21 14:40:40,973 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:40:41,022 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:41,100 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:40:41,100 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:40:41,152 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:41,439 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:40:43,711 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:40:43,725 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:43,745 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【318.99】
+2019-03-21 14:40:43,745 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【318.99】,期望值为：【318.99】
+2019-03-21 14:40:43,745 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【20.31】,期望值为：【20.31】
+2019-03-21 14:40:43,745 - com.ui.util.AssertUtil -INFO - 断言比较两者结果是否存在包含关系，实际值为：【同一金额、同一个账号3分钟内不能重复分配!】,期望值为：【同一金额、同一个账号3分钟内不能重复】
+2019-03-21 14:40:44,746 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:40:44,783 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:44,842 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:40:46,843 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:40:46,856 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:46,863 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【318.99】
+2019-03-21 14:40:46,863 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【充值】页面的【司机会员按钮】元素
+2019-03-21 14:40:46,903 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:46,956 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 司机会员]】
+2019-03-21 14:40:46,957 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【充值】页面的【账户管理按钮】元素
+2019-03-21 14:40:47,081 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:47,607 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 账户管理]】
+2019-03-21 14:40:48,608 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[2]/td[9]}来定位【充值】页面的【总部待领取金额】元素
+2019-03-21 14:40:48,624 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:48,639 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[2]/td[9]]】元素文本值:【20.31】
+2019-03-21 14:40:48,640 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[2]/td[13]/a}来定位【充值】页面的【充值按钮】元素
+2019-03-21 14:40:48,652 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:48,712 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[2]/td[13]/a]】
+2019-03-21 14:40:49,713 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input}来定位【充值】页面的【充值金额】元素
+2019-03-21 14:40:49,728 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:49,728 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input]】中写入数据：【319.99】
+2019-03-21 14:40:50,818 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[3]/button[2]}来定位【充值】页面的【保存按钮】元素
+2019-03-21 14:40:50,832 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:50,886 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[3]/button[2]]】
+2019-03-21 14:40:52,888 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[2]/div[8]/div/div/span}来定位【充值】页面的【余额不足提示】元素
+2019-03-21 14:40:52,903 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:52,919 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[2]/div[8]/div/div/span]】元素文本值:【充值金额不可大于余额】
+2019-03-21 14:40:55,073 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:40:55,110 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:55,185 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:40:55,185 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:40:55,226 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:55,722 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:40:57,914 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:40:57,932 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:57,947 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【318.99】
+2019-03-21 14:40:57,947 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【318.99】,期望值为：【318.99】
+2019-03-21 14:40:57,947 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【充值金额不可大于余额】,期望值为：【充值金额不可大于余额】
+2019-03-21 14:40:58,948 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:40:58,981 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:40:59,037 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:41:01,038 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:41:01,047 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:01,054 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【318.99】
+2019-03-21 14:41:02,056 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【撤销待领取】页面的【司机会员按钮】元素
+2019-03-21 14:41:02,094 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:02,146 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 司机会员]】
+2019-03-21 14:41:02,147 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【撤销待领取】页面的【账户管理按钮】元素
+2019-03-21 14:41:02,283 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:02,809 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 账户管理]】
+2019-03-21 14:41:03,809 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[2]/td[9]}来定位【撤销待领取】页面的【实际待领取金额】元素
+2019-03-21 14:41:03,823 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:03,839 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[2]/td[9]]】元素文本值:【20.31】
+2019-03-21 14:41:04,840 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='tr_129313']/button}来定位【公用】页面的【总部更多】元素
+2019-03-21 14:41:04,853 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:04,906 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='tr_129313']/button]】
+2019-03-21 14:41:04,906 - com.ui.base.Base -INFO - 根据{by:linkText,value:撤销待领取}来定位【撤销待领取】页面的【撤销待领取】元素
+2019-03-21 14:41:04,954 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:05,031 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 撤销待领取]】
+2019-03-21 14:41:06,032 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[@class='modal-scrollable']/div/div/div/div[2]/button[2]}来定位【撤销待领取】页面的【确认按钮】元素
+2019-03-21 14:41:06,045 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:06,103 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[@class='modal-scrollable']/div/div/div/div[2]/button[2]]】
+2019-03-21 14:41:08,142 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[2]/td[9]}来定位【撤销待领取】页面的【实际待领取金额】元素
+2019-03-21 14:41:09,958 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:09,979 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[2]/td[9]]】元素文本值:【0】
+2019-03-21 14:41:10,137 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:41:10,188 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:10,269 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:41:10,270 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:41:10,321 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:10,393 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:41:13,633 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:41:13,650 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:13,664 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【339.30】
+2019-03-21 14:41:13,664 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【0.0】,期望值为：【0.0】
+2019-03-21 14:41:13,664 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【339.3】,期望值为：【339.3】
+2019-03-21 14:41:13,665 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:41:13,705 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:13,770 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:41:16,047 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:41:16,067 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:16,083 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【339.30】
+2019-03-21 14:41:17,084 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【回收司机资金】页面的【司机会员按钮】元素
+2019-03-21 14:41:17,124 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:17,184 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 司机会员]】
+2019-03-21 14:41:17,184 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【回收司机资金】页面的【账户管理按钮】元素
+2019-03-21 14:41:17,326 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:17,793 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 账户管理]】
+2019-03-21 14:41:19,794 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[2]/td[6]}来定位【回收司机资金】页面的【余额】元素
+2019-03-21 14:41:19,809 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:19,823 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[2]/td[6]]】元素文本值:【474】
+2019-03-21 14:41:20,824 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='tr_129313']/button}来定位【回收司机资金】页面的【更多】元素
+2019-03-21 14:41:20,837 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:20,889 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='tr_129313']/button]】
+2019-03-21 14:41:20,889 - com.ui.base.Base -INFO - 根据{by:linkText,value:回收资金}来定位【回收司机资金】页面的【回收资金】元素
+2019-03-21 14:41:20,931 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:20,998 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 回收资金]】
+2019-03-21 14:41:21,999 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='backMemberCompanyMoney']/div/div/div[2]/div[4]/div/div/input}来定位【回收司机资金】页面的【回收金额】元素
+2019-03-21 14:41:22,014 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:22,014 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='backMemberCompanyMoney']/div/div/div[2]/div[4]/div/div/input]】中写入数据：【1】
+2019-03-21 14:41:22,074 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='backMemberCompanyMoney']/div/div/div[3]/button[2]}来定位【回收司机资金】页面的【保存】元素
+2019-03-21 14:41:22,090 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:22,167 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='backMemberCompanyMoney']/div/div/div[3]/button[2]]】
+2019-03-21 14:41:23,167 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[@class='modal-scrollable']/div/div/div/div[2]/button[2]}来定位【回收司机资金】页面的【确定】元素
+2019-03-21 14:41:23,181 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:23,235 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[@class='modal-scrollable']/div/div/div/div[2]/button[2]]】
+2019-03-21 14:41:25,466 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[2]/td[6]}来定位【回收司机资金】页面的【余额】元素
+2019-03-21 14:41:25,974 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:25,994 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[2]/td[6]]】元素文本值:【473】
+2019-03-21 14:41:26,140 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:41:26,186 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:26,260 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:41:26,260 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:41:26,312 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:27,946 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:41:31,285 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:41:31,300 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:31,316 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【340.30】
+2019-03-21 14:41:31,316 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【473.0】,期望值为：【473.0】
+2019-03-21 14:41:31,316 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【340.3】,期望值为：【340.3】
+2019-03-21 14:41:31,317 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:41:31,353 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:31,409 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:41:34,501 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:41:34,512 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:34,528 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【340.30】
+2019-03-21 14:41:35,529 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【回收司机资金】页面的【司机会员按钮】元素
+2019-03-21 14:41:35,569 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:35,626 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 司机会员]】
+2019-03-21 14:41:35,626 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【回收司机资金】页面的【账户管理按钮】元素
+2019-03-21 14:41:35,749 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:40,846 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 账户管理]】
+2019-03-21 14:41:42,847 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[2]/td[6]}来定位【回收司机资金】页面的【余额】元素
+2019-03-21 14:41:42,863 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:42,877 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[2]/td[6]]】元素文本值:【473】
+2019-03-21 14:41:43,878 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='tr_129313']/button}来定位【回收司机资金】页面的【更多】元素
+2019-03-21 14:41:43,893 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:43,951 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='tr_129313']/button]】
+2019-03-21 14:41:43,952 - com.ui.base.Base -INFO - 根据{by:linkText,value:回收资金}来定位【回收司机资金】页面的【回收资金】元素
+2019-03-21 14:41:43,992 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:44,069 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 回收资金]】
+2019-03-21 14:41:45,069 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='backMemberCompanyMoney']/div/div/div[2]/div[4]/div/div/input}来定位【回收司机资金】页面的【回收金额】元素
+2019-03-21 14:41:45,081 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:45,082 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='backMemberCompanyMoney']/div/div/div[2]/div[4]/div/div/input]】中写入数据：【474.0】
+2019-03-21 14:41:46,173 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='backMemberCompanyMoney']/div/div/div[3]/button[2]}来定位【回收司机资金】页面的【保存】元素
+2019-03-21 14:41:46,188 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:46,240 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='backMemberCompanyMoney']/div/div/div[3]/button[2]]】
+2019-03-21 14:41:48,242 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='backMemberCompanyMoney']/div/div/div[2]/div[7]/div/div/span}来定位【回收司机资金】页面的【超额提示】元素
+2019-03-21 14:41:48,257 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:48,272 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='backMemberCompanyMoney']/div/div/div[2]/div[7]/div/div/span]】元素文本值:【万金油回收资金超过限制!】
+2019-03-21 14:41:49,273 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='backMemberCompanyMoney']/div/div/div[3]/button[1]}来定位【回收司机资金】页面的【关闭按钮】元素
+2019-03-21 14:41:49,286 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:49,330 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='backMemberCompanyMoney']/div/div/div[3]/button[1]]】
+2019-03-21 14:41:51,742 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[2]/td[6]}来定位【回收司机资金】页面的【余额】元素
+2019-03-21 14:41:51,752 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:51,766 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[2]/td[6]]】元素文本值:【473】
+2019-03-21 14:41:52,895 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:41:52,941 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:53,008 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:41:53,009 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:41:53,050 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:53,314 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:41:56,527 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:41:56,544 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:56,560 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【340.30】
+2019-03-21 14:41:56,560 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【473.0】,期望值为：【473.0】
+2019-03-21 14:41:56,560 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【万金油回收资金超过限制!】,期望值为：【万金油回收资金超过限制!】
+2019-03-21 14:41:56,561 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【340.3】,期望值为：【340.3】
+2019-03-21 14:41:57,561 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:41:57,596 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:57,652 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:41:59,653 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:41:59,665 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:59,673 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【340.30】
+2019-03-21 14:41:59,673 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【充值】页面的【司机会员按钮】元素
+2019-03-21 14:41:59,713 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:41:59,761 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 司机会员]】
+2019-03-21 14:41:59,761 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【充值】页面的【账户管理按钮】元素
+2019-03-21 14:41:59,880 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:00,340 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 账户管理]】
+2019-03-21 14:42:01,340 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[1]/td[9]}来定位【机构司机】页面的【机构司机待领取】元素
+2019-03-21 14:42:01,354 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:01,367 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[1]/td[9]]】元素文本值:【6】
+2019-03-21 14:42:01,368 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[1]/td[13]/a}来定位【机构司机】页面的【机构充值】元素
+2019-03-21 14:42:01,381 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:01,439 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[1]/td[13]/a]】
+2019-03-21 14:42:02,439 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input}来定位【充值】页面的【充值金额】元素
+2019-03-21 14:42:02,453 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:02,453 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input]】中写入数据：【1】
+2019-03-21 14:42:03,510 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[3]/button[2]}来定位【充值】页面的【保存按钮】元素
+2019-03-21 14:42:03,525 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:03,582 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[3]/button[2]]】
+2019-03-21 14:42:04,583 - com.ui.base.Base -INFO - 根据{by:xpath,value:/html/body/div[9]/div/div/div/div[2]/button[2]}来定位【充值】页面的【确定按钮】元素
+2019-03-21 14:42:04,603 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:04,660 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: /html/body/div[9]/div/div/div/div[2]/button[2]]】
+2019-03-21 14:42:06,661 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='batchCreateUser']/div[1]/div/div/div[2]/button[2]}来定位【充值】页面的【关闭按钮】元素
+2019-03-21 14:42:06,677 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:06,728 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='batchCreateUser']/div[1]/div/div/div[2]/button[2]]】
+2019-03-21 14:42:10,542 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[1]/td[9]}来定位【机构司机】页面的【机构司机待领取】元素
+2019-03-21 14:42:10,554 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:10,571 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[1]/td[9]]】元素文本值:【7】
+2019-03-21 14:42:10,706 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:42:10,758 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:10,845 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:42:10,846 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:42:10,893 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:11,198 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:42:13,198 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:42:13,217 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:13,235 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【340.30】
+2019-03-21 14:42:13,236 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【340.3】,期望值为：【340.3】
+2019-03-21 14:42:13,236 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【7.0】,期望值为：【7.0】
+2019-03-21 14:42:14,236 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:42:14,275 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:14,328 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:42:16,329 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:42:16,342 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:16,349 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【340.30】
+2019-03-21 14:42:16,349 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【充值】页面的【司机会员按钮】元素
+2019-03-21 14:42:16,389 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:16,440 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 司机会员]】
+2019-03-21 14:42:16,440 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【充值】页面的【账户管理按钮】元素
+2019-03-21 14:42:16,561 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:17,043 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 账户管理]】
+2019-03-21 14:42:18,043 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[1]/td[9]}来定位【机构司机】页面的【机构司机待领取】元素
+2019-03-21 14:42:18,058 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:18,074 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[1]/td[9]]】元素文本值:【7】
+2019-03-21 14:42:18,074 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[1]/td[13]/a}来定位【机构司机】页面的【机构充值】元素
+2019-03-21 14:42:18,088 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:18,143 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[1]/td[13]/a]】
+2019-03-21 14:42:19,143 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input}来定位【充值】页面的【充值金额】元素
+2019-03-21 14:42:19,157 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:19,157 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input]】中写入数据：【1】
+2019-03-21 14:42:20,222 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[3]/button[2]}来定位【充值】页面的【保存按钮】元素
+2019-03-21 14:42:20,237 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:20,297 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[3]/button[2]]】
+2019-03-21 14:42:21,297 - com.ui.base.Base -INFO - 根据{by:xpath,value:/html/body/div[9]/div/div/div/div[2]/button[2]}来定位【充值】页面的【确定按钮】元素
+2019-03-21 14:42:21,310 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:21,366 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: /html/body/div[9]/div/div/div/div[2]/button[2]]】
+2019-03-21 14:42:22,366 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[9]/div/div/div/div[1]/div}来定位【充值】页面的【错误提示】元素
+2019-03-21 14:42:22,382 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:22,399 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[9]/div/div/div/div[1]/div]】元素文本值:【同一金额、同一个账号3分钟内不能重复分配!】
+2019-03-21 14:42:23,400 - com.ui.base.Base -INFO - 根据{by:xpath,value:/html/body/div[9]/div/div/div/div[2]/button}来定位【充值】页面的【ok按钮】元素
+2019-03-21 14:42:23,412 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:23,456 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: /html/body/div[9]/div/div/div/div[2]/button]】
+2019-03-21 14:42:24,457 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[3]/button[1]}来定位【充值】页面的【关闭】元素
+2019-03-21 14:42:24,474 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:24,524 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[3]/button[1]]】
+2019-03-21 14:42:28,091 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[1]/td[9]}来定位【机构司机】页面的【机构司机待领取】元素
+2019-03-21 14:42:28,103 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:28,120 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[1]/td[9]]】元素文本值:【7】
+2019-03-21 14:42:28,255 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:42:28,312 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:28,401 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:42:28,401 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:42:28,442 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:28,517 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:42:30,726 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:42:30,741 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:30,755 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【340.30】
+2019-03-21 14:42:30,755 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【340.3】,期望值为：【340.3】
+2019-03-21 14:42:30,755 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【7.0】,期望值为：【7.0】
+2019-03-21 14:42:30,755 - com.ui.util.AssertUtil -INFO - 断言比较两者结果是否存在包含关系，实际值为：【同一金额、同一个账号3分钟内不能重复分配!】,期望值为：【同一金额、同一个账号3分钟内不能重复】
+2019-03-21 14:42:31,757 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:42:31,793 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:31,858 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:42:33,859 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:42:33,870 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:33,877 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【340.30】
+2019-03-21 14:42:33,877 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【充值】页面的【司机会员按钮】元素
+2019-03-21 14:42:33,924 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:33,977 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 司机会员]】
+2019-03-21 14:42:33,977 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【充值】页面的【账户管理按钮】元素
+2019-03-21 14:42:34,103 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:34,620 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 账户管理]】
+2019-03-21 14:42:35,620 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[1]/td[9]}来定位【机构司机】页面的【机构司机待领取】元素
+2019-03-21 14:42:35,634 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:35,652 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[1]/td[9]]】元素文本值:【7】
+2019-03-21 14:42:35,652 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[1]/td[13]/a}来定位【机构司机】页面的【机构充值】元素
+2019-03-21 14:42:35,665 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:35,728 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[1]/td[13]/a]】
+2019-03-21 14:42:36,728 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[2]/div[1]/span}来定位【机构司机】页面的【机构余额】元素
+2019-03-21 14:42:36,741 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:36,755 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[2]/div[1]/span]】元素文本值:【520.4】
+2019-03-21 14:42:36,755 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input}来定位【充值】页面的【充值金额】元素
+2019-03-21 14:42:36,769 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:36,769 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input]】中写入数据：【521.4】
+2019-03-21 14:42:37,862 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[3]/button[2]}来定位【充值】页面的【保存按钮】元素
+2019-03-21 14:42:37,877 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:37,935 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[3]/button[2]]】
+2019-03-21 14:42:39,935 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[2]/div[8]/div/div/span}来定位【充值】页面的【余额不足提示】元素
+2019-03-21 14:42:39,949 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:39,963 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[2]/div[8]/div/div/span]】元素文本值:【充值金额不可大于余额】
+2019-03-21 14:42:42,708 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:42:42,752 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:42,825 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:42:42,826 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:42:42,868 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:43,130 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:42:46,022 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:42:46,036 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:46,051 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【340.30】
+2019-03-21 14:42:46,051 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【340.3】,期望值为：【340.3】
+2019-03-21 14:42:46,051 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【充值金额不可大于余额】,期望值为：【充值金额不可大于余额】
+2019-03-21 14:42:47,052 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:42:47,088 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:47,152 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:42:49,153 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:42:49,165 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:49,174 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【340.30】
+2019-03-21 14:42:50,174 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【撤销待领取】页面的【司机会员按钮】元素
+2019-03-21 14:42:50,214 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:50,270 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 司机会员]】
+2019-03-21 14:42:50,270 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【撤销待领取】页面的【账户管理按钮】元素
+2019-03-21 14:42:50,392 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:50,863 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 账户管理]】
+2019-03-21 14:42:51,864 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[1]/td[9]}来定位【机构司机】页面的【机构司机待领取】元素
+2019-03-21 14:42:51,878 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:51,893 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[1]/td[9]]】元素文本值:【7】
+2019-03-21 14:42:52,893 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='tr_129314']/button}来定位【公用】页面的【机构更多】元素
+2019-03-21 14:42:52,906 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:52,960 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='tr_129314']/button]】
+2019-03-21 14:42:52,960 - com.ui.base.Base -INFO - 根据{by:linkText,value:撤销待领取}来定位【撤销待领取】页面的【撤销待领取】元素
+2019-03-21 14:42:53,001 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:53,071 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 撤销待领取]】
+2019-03-21 14:42:54,073 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[@class='modal-scrollable']/div/div/div/div[2]/button[2]}来定位【撤销待领取】页面的【确认按钮】元素
+2019-03-21 14:42:54,084 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:54,138 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[@class='modal-scrollable']/div/div/div/div[2]/button[2]]】
+2019-03-21 14:42:56,525 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[1]/td[9]}来定位【机构司机】页面的【机构司机待领取】元素
+2019-03-21 14:42:56,534 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:56,551 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[1]/td[9]]】元素文本值:【0】
+2019-03-21 14:42:56,679 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:42:56,729 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:56,815 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:42:56,815 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:42:56,872 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:42:56,948 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:43:00,202 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:43:00,236 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:00,250 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【340.30】
+2019-03-21 14:43:00,250 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【0.0】,期望值为：【0.0】
+2019-03-21 14:43:00,250 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【340.3】,期望值为：【340.3】
+2019-03-21 14:43:00,251 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:43:00,288 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:00,345 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:43:02,774 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:43:02,784 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:02,801 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【340.30】
+2019-03-21 14:43:03,802 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【回收司机资金】页面的【司机会员按钮】元素
+2019-03-21 14:43:03,843 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:03,901 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 司机会员]】
+2019-03-21 14:43:03,901 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【回收司机资金】页面的【账户管理按钮】元素
+2019-03-21 14:43:04,029 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:04,480 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 账户管理]】
+2019-03-21 14:43:06,480 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[6]}来定位【机构司机】页面的【机构司机余额】元素
+2019-03-21 14:43:06,497 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:06,511 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[6]]】元素文本值:【97.5】
+2019-03-21 14:43:07,511 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='tr_129314']/button}来定位【公用】页面的【机构更多】元素
+2019-03-21 14:43:07,524 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:07,577 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='tr_129314']/button]】
+2019-03-21 14:43:07,578 - com.ui.base.Base -INFO - 根据{by:linkText,value:回收资金}来定位【回收司机资金】页面的【回收资金】元素
+2019-03-21 14:43:07,616 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:07,702 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 回收资金]】
+2019-03-21 14:43:08,703 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='backMemberCompanyMoney']/div/div/div[2]/div[4]/div/div/input}来定位【回收司机资金】页面的【回收金额】元素
+2019-03-21 14:43:08,718 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:08,718 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='backMemberCompanyMoney']/div/div/div[2]/div[4]/div/div/input]】中写入数据：【1】
+2019-03-21 14:43:08,777 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='backMemberCompanyMoney']/div/div/div[3]/button[2]}来定位【回收司机资金】页面的【保存】元素
+2019-03-21 14:43:08,794 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:08,866 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='backMemberCompanyMoney']/div/div/div[3]/button[2]]】
+2019-03-21 14:43:09,868 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[@class='modal-scrollable']/div/div/div/div[2]/button[2]}来定位【回收司机资金】页面的【确定】元素
+2019-03-21 14:43:09,884 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:09,941 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[@class='modal-scrollable']/div/div/div/div[2]/button[2]]】
+2019-03-21 14:43:11,318 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[6]}来定位【机构司机】页面的【机构司机余额】元素
+2019-03-21 14:43:15,268 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:15,292 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[6]]】元素文本值:【96.5】
+2019-03-21 14:43:15,427 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:43:15,474 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:15,553 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:43:15,553 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:43:15,604 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:15,886 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:43:18,900 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:43:18,917 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:18,931 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【340.30】
+2019-03-21 14:43:18,931 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【96.5】,期望值为：【96.5】
+2019-03-21 14:43:18,932 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【340.3】,期望值为：【340.3】
+2019-03-21 14:43:18,932 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:43:18,970 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:19,041 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:43:21,243 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:43:21,254 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:21,269 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【340.30】
+2019-03-21 14:43:22,269 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【回收司机资金】页面的【司机会员按钮】元素
+2019-03-21 14:43:22,312 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:22,375 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 司机会员]】
+2019-03-21 14:43:22,375 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【回收司机资金】页面的【账户管理按钮】元素
+2019-03-21 14:43:22,505 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:22,964 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 账户管理]】
+2019-03-21 14:43:24,966 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[6]}来定位【机构司机】页面的【机构司机余额】元素
+2019-03-21 14:43:24,981 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:24,997 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[6]]】元素文本值:【96.5】
+2019-03-21 14:43:25,997 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='tr_129314']/button}来定位【公用】页面的【机构更多】元素
+2019-03-21 14:43:26,009 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:26,063 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='tr_129314']/button]】
+2019-03-21 14:43:26,063 - com.ui.base.Base -INFO - 根据{by:linkText,value:回收资金}来定位【回收司机资金】页面的【回收资金】元素
+2019-03-21 14:43:26,105 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:26,172 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 回收资金]】
+2019-03-21 14:43:27,172 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='backMemberCompanyMoney']/div/div/div[2]/div[4]/div/div/input}来定位【回收司机资金】页面的【回收金额】元素
+2019-03-21 14:43:27,185 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:27,185 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='backMemberCompanyMoney']/div/div/div[2]/div[4]/div/div/input]】中写入数据：【97.5】
+2019-03-21 14:43:28,273 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='backMemberCompanyMoney']/div/div/div[3]/button[2]}来定位【回收司机资金】页面的【保存】元素
+2019-03-21 14:43:28,286 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:28,340 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='backMemberCompanyMoney']/div/div/div[3]/button[2]]】
+2019-03-21 14:43:30,341 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='backMemberCompanyMoney']/div/div/div[2]/div[7]/div/div/span}来定位【回收司机资金】页面的【超额提示】元素
+2019-03-21 14:43:30,359 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:30,373 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='backMemberCompanyMoney']/div/div/div[2]/div[7]/div/div/span]】元素文本值:【万金油回收资金超过限制!】
+2019-03-21 14:43:31,373 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='backMemberCompanyMoney']/div/div/div[3]/button[1]}来定位【回收司机资金】页面的【关闭按钮】元素
+2019-03-21 14:43:31,384 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:31,431 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='backMemberCompanyMoney']/div/div/div[3]/button[1]]】
+2019-03-21 14:43:33,848 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[6]}来定位【机构司机】页面的【机构司机余额】元素
+2019-03-21 14:43:33,864 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:33,881 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[6]]】元素文本值:【96.5】
+2019-03-21 14:43:35,005 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:43:35,050 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:35,123 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:43:35,124 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:43:35,168 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:35,426 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:43:38,625 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:43:38,640 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:38,656 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【340.30】
+2019-03-21 14:43:38,656 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【96.5】,期望值为：【96.5】
+2019-03-21 14:43:38,656 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【万金油回收资金超过限制!】,期望值为：【万金油回收资金超过限制!】
+2019-03-21 14:43:38,656 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【340.3】,期望值为：【340.3】
+2019-03-21 14:43:38,657 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:43:38,691 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:38,743 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:43:40,743 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:43:40,753 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:40,761 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【340.30】
+2019-03-21 14:43:41,762 - com.ui.base.Base -INFO - 根据{by:linkText,value:下属机构}来定位【机构充值】页面的【下属机构】元素
+2019-03-21 14:43:41,799 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:41,853 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 下属机构]】
+2019-03-21 14:43:41,854 - com.ui.base.Base -INFO - 根据{by:linkText,value:机构列表}来定位【机构充值】页面的【机构列表】元素
+2019-03-21 14:43:41,971 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:42,319 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 机构列表]】
+2019-03-21 14:43:44,320 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[3]}来定位【机构充值】页面的【余额】元素
+2019-03-21 14:43:44,334 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:44,351 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[3]]】元素文本值:【528.4】
+2019-03-21 14:43:44,351 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[4]}来定位【机构充值】页面的【历史储值】元素
+2019-03-21 14:43:44,363 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:44,379 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[4]]】元素文本值:【905】
+2019-03-21 14:43:45,379 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[6]/a}来定位【机构充值】页面的【充值】元素
+2019-03-21 14:43:45,393 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:45,451 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[6]/a]】
+2019-03-21 14:43:46,451 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='recharge']/div/div/div[2]/div[3]/div/div/input}来定位【机构充值】页面的【充值金额】元素
+2019-03-21 14:43:46,463 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:46,463 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='recharge']/div/div/div[2]/div[3]/div/div/input]】中写入数据：【1】
+2019-03-21 14:43:46,523 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='recharge']/div/div/div[3]/button[2]}来定位【机构充值】页面的【保存】元素
+2019-03-21 14:43:46,541 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:46,606 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='recharge']/div/div/div[3]/button[2]]】
+2019-03-21 14:43:47,607 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[7]/div/div/div/div[2]/button[2]}来定位【机构充值】页面的【确定】元素
+2019-03-21 14:43:47,622 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:47,679 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[7]/div/div/div/div[2]/button[2]]】
+2019-03-21 14:43:48,893 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[3]}来定位【机构充值】页面的【余额】元素
+2019-03-21 14:43:49,013 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:49,027 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[3]]】元素文本值:【529.4】
+2019-03-21 14:43:49,027 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[4]}来定位【机构充值】页面的【历史储值】元素
+2019-03-21 14:43:49,034 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:49,048 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[4]]】元素文本值:【906】
+2019-03-21 14:43:49,195 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:43:49,247 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:49,328 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:43:49,329 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:43:49,374 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:49,639 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:43:51,842 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:43:51,857 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:51,871 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【339.30】
+2019-03-21 14:43:51,871 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【529.4】,期望值为：【529.4】
+2019-03-21 14:43:51,871 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【906.0】,期望值为：【906.0】
+2019-03-21 14:43:51,871 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【339.3】,期望值为：【339.3】
+2019-03-21 14:43:51,872 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:43:51,905 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:51,964 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:43:53,964 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:43:53,974 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:53,983 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【339.30】
+2019-03-21 14:43:54,984 - com.ui.base.Base -INFO - 根据{by:linkText,value:下属机构}来定位【机构充值】页面的【下属机构】元素
+2019-03-21 14:43:55,022 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:55,073 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 下属机构]】
+2019-03-21 14:43:55,073 - com.ui.base.Base -INFO - 根据{by:linkText,value:机构列表}来定位【机构充值】页面的【机构列表】元素
+2019-03-21 14:43:55,187 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:55,469 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 机构列表]】
+2019-03-21 14:43:57,470 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[3]}来定位【机构充值】页面的【余额】元素
+2019-03-21 14:43:57,493 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:57,509 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[3]]】元素文本值:【529.4】
+2019-03-21 14:43:57,510 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[4]}来定位【机构充值】页面的【历史储值】元素
+2019-03-21 14:43:57,521 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:57,536 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[4]]】元素文本值:【906】
+2019-03-21 14:43:58,537 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[6]/a}来定位【机构充值】页面的【充值】元素
+2019-03-21 14:43:58,549 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:58,606 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[6]/a]】
+2019-03-21 14:43:59,606 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='recharge']/div/div/div[2]/div[3]/div/div/input}来定位【机构充值】页面的【充值金额】元素
+2019-03-21 14:43:59,620 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:59,621 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='recharge']/div/div/div[2]/div[3]/div/div/input]】中写入数据：【340.3】
+2019-03-21 14:43:59,707 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='recharge']/div/div/div[3]/button[2]}来定位【机构充值】页面的【保存】元素
+2019-03-21 14:43:59,721 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:43:59,780 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='recharge']/div/div/div[3]/button[2]]】
+2019-03-21 14:44:00,780 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge']/div/div/div[2]/div[5]/div/div/span}来定位【机构充值】页面的【超额提示】元素
+2019-03-21 14:44:00,794 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:00,808 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge']/div/div/div[2]/div[5]/div/div/span]】元素文本值:【充值金额不可大于余额!】
+2019-03-21 14:44:00,808 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge']/div/div/div[3]/button[1]}来定位【机构充值】页面的【关闭】元素
+2019-03-21 14:44:00,822 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:00,870 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge']/div/div/div[3]/button[1]]】
+2019-03-21 14:44:02,096 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[3]}来定位【机构充值】页面的【余额】元素
+2019-03-21 14:44:02,168 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:02,182 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[3]]】元素文本值:【529.4】
+2019-03-21 14:44:02,182 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[4]}来定位【机构充值】页面的【历史储值】元素
+2019-03-21 14:44:02,190 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:02,206 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[4]]】元素文本值:【906】
+2019-03-21 14:44:02,331 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:44:02,384 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:02,476 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:44:02,476 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:44:02,522 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:02,797 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:44:05,443 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:44:05,458 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:05,473 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【339.30】
+2019-03-21 14:44:05,473 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【529.4】,期望值为：【529.4】
+2019-03-21 14:44:05,473 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【906.0】,期望值为：【906.0】
+2019-03-21 14:44:05,473 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【339.3】,期望值为：【339.3】
+2019-03-21 14:44:05,474 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:44:05,509 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:05,562 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:44:07,562 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:44:07,575 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:07,582 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【339.30】
+2019-03-21 14:44:08,582 - com.ui.base.Base -INFO - 根据{by:linkText,value:下属机构}来定位【回收机构金额】页面的【下属机构】元素
+2019-03-21 14:44:08,622 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:08,671 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 下属机构]】
+2019-03-21 14:44:08,671 - com.ui.base.Base -INFO - 根据{by:linkText,value:机构列表}来定位【回收机构金额】页面的【机构列表】元素
+2019-03-21 14:44:08,793 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:09,138 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 机构列表]】
+2019-03-21 14:44:11,138 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[3]}来定位【回收机构金额】页面的【余额】元素
+2019-03-21 14:44:11,153 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:11,167 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[3]]】元素文本值:【529.4】
+2019-03-21 14:44:11,167 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[4]}来定位【回收机构金额】页面的【历史储值】元素
+2019-03-21 14:44:11,179 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:11,194 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[4]]】元素文本值:【906】
+2019-03-21 14:44:12,194 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='tr_396']/button}来定位【回收机构金额】页面的【更多】元素
+2019-03-21 14:44:12,212 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:12,260 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='tr_396']/button]】
+2019-03-21 14:44:13,261 - com.ui.base.Base -INFO - 根据{by:linkText,value:回收}来定位【回收机构金额】页面的【回收】元素
+2019-03-21 14:44:13,298 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:13,357 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 回收]】
+2019-03-21 14:44:14,357 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='backrecharge']/div/div/div[2]/div[2]/div/div/input}来定位【回收机构金额】页面的【回收金额】元素
+2019-03-21 14:44:14,371 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:14,371 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='backrecharge']/div/div/div[2]/div[2]/div/div/input]】中写入数据：【1】
+2019-03-21 14:44:14,424 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='backrecharge']/div/div/div[3]/button[2]}来定位【回收机构金额】页面的【保存】元素
+2019-03-21 14:44:14,441 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:14,514 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='backrecharge']/div/div/div[3]/button[2]]】
+2019-03-21 14:44:15,514 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[7]/div/div/div/div[2]/button[2]}来定位【回收机构金额】页面的【确定】元素
+2019-03-21 14:44:15,527 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:15,576 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[7]/div/div/div/div[2]/button[2]]】
+2019-03-21 14:44:16,796 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[3]}来定位【回收机构金额】页面的【余额】元素
+2019-03-21 14:44:16,864 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:16,881 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[3]]】元素文本值:【528.4】
+2019-03-21 14:44:16,881 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[4]}来定位【回收机构金额】页面的【历史储值】元素
+2019-03-21 14:44:16,890 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:16,902 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[4]]】元素文本值:【905】
+2019-03-21 14:44:16,903 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:44:16,929 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:16,988 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:44:16,989 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:44:17,110 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:17,692 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:44:19,714 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:44:19,728 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:19,743 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【340.30】
+2019-03-21 14:44:19,743 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【528.4】,期望值为：【528.4】
+2019-03-21 14:44:19,743 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【905.0】,期望值为：【905.0】
+2019-03-21 14:44:19,743 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【340.3】,期望值为：【340.3】
+2019-03-21 14:44:19,744 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:44:19,781 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:19,834 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:44:21,836 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:44:21,846 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:21,856 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【340.30】
+2019-03-21 14:44:22,856 - com.ui.base.Base -INFO - 根据{by:linkText,value:下属机构}来定位【回收机构金额】页面的【下属机构】元素
+2019-03-21 14:44:22,893 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:22,941 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 下属机构]】
+2019-03-21 14:44:22,941 - com.ui.base.Base -INFO - 根据{by:linkText,value:机构列表}来定位【回收机构金额】页面的【机构列表】元素
+2019-03-21 14:44:23,057 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:23,151 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 机构列表]】
+2019-03-21 14:44:25,151 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[3]}来定位【回收机构金额】页面的【余额】元素
+2019-03-21 14:44:27,902 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:27,918 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[3]]】元素文本值:【528.4】
+2019-03-21 14:44:27,918 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[4]}来定位【回收机构金额】页面的【历史储值】元素
+2019-03-21 14:44:27,932 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:27,948 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[4]]】元素文本值:【905】
+2019-03-21 14:44:28,949 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='tr_396']/button}来定位【回收机构金额】页面的【更多】元素
+2019-03-21 14:44:28,963 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:29,009 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='tr_396']/button]】
+2019-03-21 14:44:29,009 - com.ui.base.Base -INFO - 根据{by:linkText,value:回收}来定位【回收机构金额】页面的【回收】元素
+2019-03-21 14:44:29,050 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:29,111 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 回收]】
+2019-03-21 14:44:30,111 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='backrecharge']/div/div/div[2]/div[2]/div/div/input}来定位【回收机构金额】页面的【回收金额】元素
+2019-03-21 14:44:30,123 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:30,123 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='backrecharge']/div/div/div[2]/div[2]/div/div/input]】中写入数据：【529.4】
+2019-03-21 14:44:30,201 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='backrecharge']/div/div/div[3]/button[2]}来定位【回收机构金额】页面的【保存】元素
+2019-03-21 14:44:30,216 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:30,277 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='backrecharge']/div/div/div[3]/button[2]]】
+2019-03-21 14:44:30,277 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='backrecharge']/div/div/div[2]/div[4]/div/div/span}来定位【回收机构金额】页面的【超额提示】元素
+2019-03-21 14:44:30,291 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:30,305 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='backrecharge']/div/div/div[2]/div[4]/div/div/span]】元素文本值:【回收金额不可大于机构余额!】
+2019-03-21 14:44:31,305 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='backrecharge']/div/div/div[3]/button[1]}来定位【回收机构金额】页面的【关闭】元素
+2019-03-21 14:44:31,317 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:31,364 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='backrecharge']/div/div/div[3]/button[1]]】
+2019-03-21 14:44:32,591 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[3]}来定位【回收机构金额】页面的【余额】元素
+2019-03-21 14:44:32,662 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:32,676 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[3]]】元素文本值:【528.4】
+2019-03-21 14:44:32,676 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[4]}来定位【回收机构金额】页面的【历史储值】元素
+2019-03-21 14:44:32,685 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:32,698 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[4]]】元素文本值:【905】
+2019-03-21 14:44:32,828 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:44:32,870 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:32,962 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:44:32,962 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:44:33,025 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:33,289 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:44:35,487 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:44:35,502 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:35,518 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【340.30】
+2019-03-21 14:44:35,518 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【528.4】,期望值为：【528.4】
+2019-03-21 14:44:35,518 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【905.0】,期望值为：【905.0】
+2019-03-21 14:44:35,518 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【340.3】,期望值为：【340.3】
+2019-03-21 14:44:35,519 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:44:35,558 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:35,614 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:44:37,615 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:44:37,624 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:37,631 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【340.30】
+2019-03-21 14:44:38,631 - com.ui.base.Base -INFO - 根据{by:linkText,value:企业结算管理}来定位【企业转账】页面的【企业结算管理】元素
+2019-03-21 14:44:38,670 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:38,725 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 企业结算管理]】
+2019-03-21 14:44:38,726 - com.ui.base.Base -INFO - 根据{by:linkText,value:企业账户转账}来定位【企业转账】页面的【企业账户转账】元素
+2019-03-21 14:44:38,842 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:39,512 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 企业账户转账]】
+2019-03-21 14:44:39,512 - com.ui.base.Base -INFO - 根据{by:xpath,value://ins[@class='iCheck-helper']}来定位【企业转账】页面的【新加转账企业】元素
+2019-03-21 14:44:39,532 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:39,588 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //ins[@class='iCheck-helper']]】
+2019-03-21 14:44:39,588 - com.ui.base.Base -INFO - 根据{by:id,value:company_smal_name}来定位【企业转账】页面的【企业名称】元素
+2019-03-21 14:44:39,604 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:39,604 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> id: company_smal_name]】中写入数据：【一点测试企业（原三川庞四文）】
+2019-03-21 14:44:39,735 - com.ui.base.Base -INFO - 根据{by:id,value:zz_number}来定位【企业转账】页面的【企业万金油账号】元素
+2019-03-21 14:44:39,748 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:39,749 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> id: zz_number]】中写入数据：【3239941762】
+2019-03-21 14:44:39,850 - com.ui.base.Base -INFO - 根据{by:xpath,value://input[@name='money']}来定位【企业转账】页面的【转账金额】元素
+2019-03-21 14:44:39,864 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:39,864 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //input[@name='money']]】中写入数据：【2】
+2019-03-21 14:44:39,913 - com.ui.base.Base -INFO - 根据{by:xpath,value://form[@class='form-horizontal']/div[2]/div/div/button}来定位【企业转账】页面的【转账】元素
+2019-03-21 14:44:39,926 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:40,002 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //form[@class='form-horizontal']/div[2]/div/div/button]】
+2019-03-21 14:44:40,003 - com.ui.base.Base -INFO - 根据{by:xpath,value:html/body/div[4]/div/div/div[2]/button[2]}来定位【企业转账】页面的【确定】元素
+2019-03-21 14:44:40,512 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:40,573 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: html/body/div[4]/div/div/div[2]/button[2]]】
+2019-03-21 14:44:43,766 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:44:43,803 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:43,855 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:44:43,855 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:44:43,900 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:44,170 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:44:46,371 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:44:46,385 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:46,400 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【338.30】
+2019-03-21 14:44:46,400 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【338.3】,期望值为：【338.3】
+2019-03-21 14:44:46,401 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:44:46,435 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:46,511 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:44:48,511 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:44:48,521 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:48,529 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【338.30】
+2019-03-21 14:44:49,529 - com.ui.base.Base -INFO - 根据{by:linkText,value:企业结算管理}来定位【企业转账】页面的【企业结算管理】元素
+2019-03-21 14:44:49,569 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:49,622 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 企业结算管理]】
+2019-03-21 14:44:49,622 - com.ui.base.Base -INFO - 根据{by:linkText,value:企业账户转账}来定位【企业转账】页面的【企业账户转账】元素
+2019-03-21 14:44:49,754 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:49,879 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 企业账户转账]】
+2019-03-21 14:44:49,879 - com.ui.base.Base -INFO - 根据{by:xpath,value://ins[@class='iCheck-helper']}来定位【企业转账】页面的【新加转账企业】元素
+2019-03-21 14:44:52,750 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:52,812 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //ins[@class='iCheck-helper']]】
+2019-03-21 14:44:52,812 - com.ui.base.Base -INFO - 根据{by:id,value:company_smal_name}来定位【企业转账】页面的【企业名称】元素
+2019-03-21 14:44:52,826 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:52,826 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> id: company_smal_name]】中写入数据：【李垚测试企业】
+2019-03-21 14:44:52,916 - com.ui.base.Base -INFO - 根据{by:id,value:zz_number}来定位【企业转账】页面的【企业万金油账号】元素
+2019-03-21 14:44:52,929 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:52,929 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> id: zz_number]】中写入数据：【3365506444】
+2019-03-21 14:44:53,014 - com.ui.base.Base -INFO - 根据{by:xpath,value://input[@name='money']}来定位【企业转账】页面的【转账金额】元素
+2019-03-21 14:44:53,027 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:53,027 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //input[@name='money']]】中写入数据：【339.3】
+2019-03-21 14:44:53,094 - com.ui.base.Base -INFO - 根据{by:xpath,value://form[@class='form-horizontal']/div[2]/div/div/button}来定位【企业转账】页面的【转账】元素
+2019-03-21 14:44:53,108 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:53,168 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //form[@class='form-horizontal']/div[2]/div/div/button]】
+2019-03-21 14:44:54,168 - com.ui.base.Base -INFO - 根据{by:id,value:money-error}来定位【企业转账】页面的【超额提示】元素
+2019-03-21 14:44:54,180 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:54,195 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> id: money-error]】元素文本值:【请输入范围在 1 到 338.3 之间的数值】
+2019-03-21 14:44:54,196 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:44:54,226 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:54,309 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:44:54,309 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:44:54,416 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:54,946 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:44:57,457 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:44:57,478 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:57,495 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【338.30】
+2019-03-21 14:44:57,495 - com.ui.util.AssertUtil -INFO - 断言比较两者结果是否存在包含关系，实际值为：【请输入范围在 1 到 338.3 之间的数值】,期望值为：【请输入范围在】
+2019-03-21 14:44:57,495 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【338.3】,期望值为：【338.3】
+2019-03-21 14:44:59,397 - com.ui.base.Base -INFO - 根据{by:id,value:username}来定位【登陆页】页面的【手机号】元素
+2019-03-21 14:44:59,414 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:59,414 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> id: username]】中写入数据：【14488889999】
+2019-03-21 14:44:59,509 - com.ui.base.Base -INFO - 根据{by:name,value:password}来定位【登陆页】页面的【密码】元素
+2019-03-21 14:44:59,523 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:59,523 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> name: password]】中写入数据：【an1234】
+2019-03-21 14:44:59,591 - com.ui.base.Base -INFO - 根据{by:id,value:login_button}来定位【登陆页】页面的【登陆按钮】元素
+2019-03-21 14:44:59,605 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:44:59,684 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> id: login_button]】
+2019-03-21 14:45:00,685 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:45:00,727 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:00,816 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:45:02,816 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:45:02,827 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:02,840 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【338.30】
+2019-03-21 14:45:02,841 - com.ui.base.Base -INFO - 根据{by:xpath,value:/html/body/div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[3]/span}来定位【公用】页面的【待审核金额】元素
+2019-03-21 14:45:02,852 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:02,865 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: /html/body/div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[3]/span]】元素文本值:【153.40】
+2019-03-21 14:45:02,865 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【充值】页面的【司机会员按钮】元素
+2019-03-21 14:45:02,903 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:02,951 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 司机会员]】
+2019-03-21 14:45:02,951 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【充值】页面的【账户管理按钮】元素
+2019-03-21 14:45:03,064 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:03,550 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 账户管理]】
+2019-03-21 14:45:04,550 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[2]/td[10]}来定位【出纳】页面的【总部司机待审核】元素
+2019-03-21 14:45:04,566 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:04,585 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[2]/td[10]]】元素文本值:【88.4】
+2019-03-21 14:45:04,585 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[2]/td[13]/a}来定位【充值】页面的【充值按钮】元素
+2019-03-21 14:45:04,599 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:04,651 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[2]/td[13]/a]】
+2019-03-21 14:45:05,653 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input}来定位【充值】页面的【充值金额】元素
+2019-03-21 14:45:05,664 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:05,665 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input]】中写入数据：【1.2】
+2019-03-21 14:45:06,738 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[3]/button[2]}来定位【充值】页面的【保存按钮】元素
+2019-03-21 14:45:06,751 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:06,811 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[3]/button[2]]】
+2019-03-21 14:45:07,811 - com.ui.base.Base -INFO - 根据{by:xpath,value:/html/body/div[9]/div/div/div/div[2]/button[2]}来定位【充值】页面的【确定按钮】元素
+2019-03-21 14:45:07,824 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:07,878 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: /html/body/div[9]/div/div/div/div[2]/button[2]]】
+2019-03-21 14:45:09,878 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='batchCreateUser']/div[1]/div/div/div[2]/button[2]}来定位【充值】页面的【关闭按钮】元素
+2019-03-21 14:45:09,895 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:09,944 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='batchCreateUser']/div[1]/div/div/div[2]/button[2]]】
+2019-03-21 14:45:13,378 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[2]/td[10]}来定位【出纳】页面的【总部司机待审核】元素
+2019-03-21 14:45:13,391 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:13,406 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[2]/td[10]]】元素文本值:【89.6】
+2019-03-21 14:45:13,552 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:45:13,601 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:13,673 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:45:13,673 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:45:13,716 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:14,006 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:45:16,018 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:45:16,041 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:16,057 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【337.10】
+2019-03-21 14:45:16,057 - com.ui.base.Base -INFO - 根据{by:xpath,value:/html/body/div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[3]/span}来定位【公用】页面的【待审核金额】元素
+2019-03-21 14:45:16,069 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:16,082 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: /html/body/div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[3]/span]】元素文本值:【154.60】
+2019-03-21 14:45:16,082 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【337.1】,期望值为：【337.1】
+2019-03-21 14:45:16,082 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【89.6】,期望值为：【89.60000000000001】
+2019-03-21 14:45:18,759 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:45:18,796 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:18,853 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:45:20,854 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:45:20,862 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:20,872 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【337.10】
+2019-03-21 14:45:20,872 - com.ui.base.Base -INFO - 根据{by:xpath,value:/html/body/div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[3]/span}来定位【公用】页面的【待审核金额】元素
+2019-03-21 14:45:20,880 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:20,887 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: /html/body/div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[3]/span]】元素文本值:【154.60】
+2019-03-21 14:45:20,888 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【充值】页面的【司机会员按钮】元素
+2019-03-21 14:45:20,924 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:20,977 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 司机会员]】
+2019-03-21 14:45:20,977 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【充值】页面的【账户管理按钮】元素
+2019-03-21 14:45:21,090 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:21,579 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 账户管理]】
+2019-03-21 14:45:22,580 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[2]/td[10]}来定位【出纳】页面的【总部司机待审核】元素
+2019-03-21 14:45:22,595 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:22,610 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[2]/td[10]]】元素文本值:【89.6】
+2019-03-21 14:45:22,610 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[2]/td[13]/a}来定位【充值】页面的【充值按钮】元素
+2019-03-21 14:45:22,623 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:22,684 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[2]/td[13]/a]】
+2019-03-21 14:45:23,685 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input}来定位【充值】页面的【充值金额】元素
+2019-03-21 14:45:23,697 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:23,697 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input]】中写入数据：【338.1】
+2019-03-21 14:45:24,786 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[3]/button[2]}来定位【充值】页面的【保存按钮】元素
+2019-03-21 14:45:24,802 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:24,856 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[3]/button[2]]】
+2019-03-21 14:45:26,857 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[2]/div[8]/div/div/span}来定位【充值】页面的【余额不足提示】元素
+2019-03-21 14:45:26,871 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:26,885 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[2]/div[8]/div/div/span]】元素文本值:【充值金额不可大于余额】
+2019-03-21 14:45:29,330 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:45:30,997 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:31,080 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:45:31,080 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:45:31,130 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:31,467 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:45:33,653 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:45:33,670 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:33,683 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【337.10】
+2019-03-21 14:45:33,683 - com.ui.base.Base -INFO - 根据{by:xpath,value:/html/body/div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[3]/span}来定位【公用】页面的【待审核金额】元素
+2019-03-21 14:45:33,694 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:33,708 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: /html/body/div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[3]/span]】元素文本值:【154.60】
+2019-03-21 14:45:33,708 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【337.1】,期望值为：【337.1】
+2019-03-21 14:45:33,708 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【充值金额不可大于余额】,期望值为：【充值金额不可大于余额】
+2019-03-21 14:45:33,708 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【154.6】,期望值为：【154.6】
+2019-03-21 14:45:34,709 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:45:34,744 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:34,799 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:45:37,002 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:45:37,015 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:37,030 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【337.10】
+2019-03-21 14:45:38,031 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【回收司机资金】页面的【司机会员按钮】元素
+2019-03-21 14:45:38,071 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:38,140 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 司机会员]】
+2019-03-21 14:45:38,140 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【回收司机资金】页面的【账户管理按钮】元素
+2019-03-21 14:45:38,262 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:38,706 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 账户管理]】
+2019-03-21 14:45:40,708 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[2]/td[6]}来定位【回收司机资金】页面的【余额】元素
+2019-03-21 14:45:40,724 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:40,739 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[2]/td[6]]】元素文本值:【473】
+2019-03-21 14:45:41,740 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='tr_129313']/button}来定位【回收司机资金】页面的【更多】元素
+2019-03-21 14:45:41,754 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:41,808 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='tr_129313']/button]】
+2019-03-21 14:45:41,808 - com.ui.base.Base -INFO - 根据{by:linkText,value:回收资金}来定位【回收司机资金】页面的【回收资金】元素
+2019-03-21 14:45:41,843 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:41,921 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 回收资金]】
+2019-03-21 14:45:42,921 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='backMemberCompanyMoney']/div/div/div[2]/div[4]/div/div/input}来定位【回收司机资金】页面的【回收金额】元素
+2019-03-21 14:45:42,933 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:42,933 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='backMemberCompanyMoney']/div/div/div[2]/div[4]/div/div/input]】中写入数据：【1】
+2019-03-21 14:45:42,993 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='backMemberCompanyMoney']/div/div/div[3]/button[2]}来定位【回收司机资金】页面的【保存】元素
+2019-03-21 14:45:43,010 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:43,090 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='backMemberCompanyMoney']/div/div/div[3]/button[2]]】
+2019-03-21 14:45:44,091 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[@class='modal-scrollable']/div/div/div/div[2]/button[2]}来定位【回收司机资金】页面的【确定】元素
+2019-03-21 14:45:44,103 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:44,159 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[@class='modal-scrollable']/div/div/div/div[2]/button[2]]】
+2019-03-21 14:45:45,596 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[2]/td[6]}来定位【回收司机资金】页面的【余额】元素
+2019-03-21 14:45:45,666 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:45,689 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[2]/td[6]]】元素文本值:【472】
+2019-03-21 14:45:45,834 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:45:45,876 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:45,954 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:45:45,954 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:45:45,996 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:46,086 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:45:49,305 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:45:49,322 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:49,340 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【338.10】
+2019-03-21 14:45:49,340 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【472.0】,期望值为：【472.0】
+2019-03-21 14:45:49,340 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【338.1】,期望值为：【338.1】
+2019-03-21 14:45:49,340 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:45:49,373 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:49,424 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:45:51,636 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:45:51,649 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:51,663 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【338.10】
+2019-03-21 14:45:52,663 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【回收司机资金】页面的【司机会员按钮】元素
+2019-03-21 14:45:52,702 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:52,760 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 司机会员]】
+2019-03-21 14:45:52,760 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【回收司机资金】页面的【账户管理按钮】元素
+2019-03-21 14:45:52,876 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:53,332 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 账户管理]】
+2019-03-21 14:45:55,332 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[2]/td[6]}来定位【回收司机资金】页面的【余额】元素
+2019-03-21 14:45:55,348 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:55,368 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[2]/td[6]]】元素文本值:【472】
+2019-03-21 14:45:56,368 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='tr_129313']/button}来定位【回收司机资金】页面的【更多】元素
+2019-03-21 14:45:56,379 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:56,443 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='tr_129313']/button]】
+2019-03-21 14:45:56,443 - com.ui.base.Base -INFO - 根据{by:linkText,value:回收资金}来定位【回收司机资金】页面的【回收资金】元素
+2019-03-21 14:45:56,481 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:56,551 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 回收资金]】
+2019-03-21 14:45:57,552 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='backMemberCompanyMoney']/div/div/div[2]/div[4]/div/div/input}来定位【回收司机资金】页面的【回收金额】元素
+2019-03-21 14:45:57,566 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:57,567 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='backMemberCompanyMoney']/div/div/div[2]/div[4]/div/div/input]】中写入数据：【473.0】
+2019-03-21 14:45:58,657 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='backMemberCompanyMoney']/div/div/div[3]/button[2]}来定位【回收司机资金】页面的【保存】元素
+2019-03-21 14:45:58,670 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:45:58,729 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='backMemberCompanyMoney']/div/div/div[3]/button[2]]】
+2019-03-21 14:46:00,730 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='backMemberCompanyMoney']/div/div/div[2]/div[7]/div/div/span}来定位【回收司机资金】页面的【超额提示】元素
+2019-03-21 14:46:00,745 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:00,760 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='backMemberCompanyMoney']/div/div/div[2]/div[7]/div/div/span]】元素文本值:【万金油回收资金超过限制!】
+2019-03-21 14:46:01,760 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='backMemberCompanyMoney']/div/div/div[3]/button[1]}来定位【回收司机资金】页面的【关闭按钮】元素
+2019-03-21 14:46:01,773 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:01,819 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='backMemberCompanyMoney']/div/div/div[3]/button[1]]】
+2019-03-21 14:46:04,416 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[2]/td[6]}来定位【回收司机资金】页面的【余额】元素
+2019-03-21 14:46:04,431 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:04,447 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[2]/td[6]]】元素文本值:【472】
+2019-03-21 14:46:05,581 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:46:05,622 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:05,691 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:46:05,692 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:46:05,732 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:06,378 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:46:09,603 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:46:09,617 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:09,633 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【338.10】
+2019-03-21 14:46:09,634 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【472.0】,期望值为：【472.0】
+2019-03-21 14:46:09,634 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【万金油回收资金超过限制!】,期望值为：【万金油回收资金超过限制!】
+2019-03-21 14:46:09,634 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【338.1】,期望值为：【338.1】
+2019-03-21 14:46:10,634 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:46:10,666 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:10,727 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:46:12,729 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:46:12,739 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:12,749 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【338.10】
+2019-03-21 14:46:12,749 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[2]/a/div[2]/div[1]/span}来定位【公用】页面的【企业券】元素
+2019-03-21 14:46:12,764 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:12,778 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[2]/a/div[2]/div[1]/span]】元素文本值:【1,728.20】
+2019-03-21 14:46:12,779 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[3]/a/div[2]/div[1]/span}来定位【公用】页面的【可用余额】元素
+2019-03-21 14:46:12,792 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:12,804 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[3]/a/div[2]/div[1]/span]】元素文本值:【2】
+2019-03-21 14:46:12,804 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【充值】页面的【司机会员按钮】元素
+2019-03-21 14:46:12,843 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:12,892 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 司机会员]】
+2019-03-21 14:46:12,892 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【充值】页面的【账户管理按钮】元素
+2019-03-21 14:46:13,014 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:13,462 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 账户管理]】
+2019-03-21 14:46:14,462 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[1]/td[10]}来定位【出纳】页面的【机构司机待审核】元素
+2019-03-21 14:46:14,477 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:14,490 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[1]/td[10]]】元素文本值:【53】
+2019-03-21 14:46:14,490 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[1]/td[13]/a}来定位【机构司机】页面的【机构充值】元素
+2019-03-21 14:46:14,504 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:14,558 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[1]/td[13]/a]】
+2019-03-21 14:46:15,558 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input}来定位【充值】页面的【充值金额】元素
+2019-03-21 14:46:15,573 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:15,573 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input]】中写入数据：【1】
+2019-03-21 14:46:16,629 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[3]/button[2]}来定位【充值】页面的【保存按钮】元素
+2019-03-21 14:46:16,643 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:16,703 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[3]/button[2]]】
+2019-03-21 14:46:17,703 - com.ui.base.Base -INFO - 根据{by:xpath,value:/html/body/div[9]/div/div/div/div[2]/button[2]}来定位【充值】页面的【确定按钮】元素
+2019-03-21 14:46:17,717 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:17,776 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: /html/body/div[9]/div/div/div/div[2]/button[2]]】
+2019-03-21 14:46:19,776 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='batchCreateUser']/div[1]/div/div/div[2]/button[2]}来定位【充值】页面的【关闭按钮】元素
+2019-03-21 14:46:19,794 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:19,846 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='batchCreateUser']/div[1]/div/div/div[2]/button[2]]】
+2019-03-21 14:46:23,248 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[1]/td[10]}来定位【出纳】页面的【机构司机待审核】元素
+2019-03-21 14:46:23,260 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:23,276 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[1]/td[10]]】元素文本值:【54】
+2019-03-21 14:46:23,408 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:46:23,456 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:23,541 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:46:23,541 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:46:23,585 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:23,849 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:46:26,035 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:46:26,050 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:26,063 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【338.10】
+2019-03-21 14:46:26,064 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[2]/a/div[2]/div[1]/span}来定位【公用】页面的【企业券】元素
+2019-03-21 14:46:26,088 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:26,101 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[2]/a/div[2]/div[1]/span]】元素文本值:【1,728.20】
+2019-03-21 14:46:26,101 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[3]/a/div[2]/div[1]/span}来定位【公用】页面的【可用余额】元素
+2019-03-21 14:46:26,113 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:26,128 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[3]/a/div[2]/div[1]/span]】元素文本值:【2】
+2019-03-21 14:46:26,128 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【338.1】,期望值为：【338.1】
+2019-03-21 14:46:26,129 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【1728.2】,期望值为：【1728.2】
+2019-03-21 14:46:26,129 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【2.0】,期望值为：【2.0】
+2019-03-21 14:46:26,129 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【54.0】,期望值为：【54.0】
+2019-03-21 14:46:27,129 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:46:27,162 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:27,220 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:46:29,221 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:46:29,232 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:29,240 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【338.10】
+2019-03-21 14:46:29,240 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【充值】页面的【司机会员按钮】元素
+2019-03-21 14:46:29,275 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:29,325 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 司机会员]】
+2019-03-21 14:46:29,325 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【充值】页面的【账户管理按钮】元素
+2019-03-21 14:46:29,436 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:29,878 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 账户管理]】
+2019-03-21 14:46:30,879 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[1]/td[10]}来定位【出纳】页面的【机构司机待审核】元素
+2019-03-21 14:46:30,894 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:30,908 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[1]/td[10]]】元素文本值:【54】
+2019-03-21 14:46:30,909 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[1]/td[13]/a}来定位【机构司机】页面的【机构充值】元素
+2019-03-21 14:46:30,925 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:30,983 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='yidian_table']/tbody/tr[1]/td[13]/a]】
+2019-03-21 14:46:31,983 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[2]/div[1]/span}来定位【机构司机】页面的【机构余额】元素
+2019-03-21 14:46:31,997 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:32,009 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[2]/div[1]/span]】元素文本值:【527.4】
+2019-03-21 14:46:32,009 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input}来定位【充值】页面的【充值金额】元素
+2019-03-21 14:46:32,021 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:32,021 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input]】中写入数据：【528.4】
+2019-03-21 14:46:33,108 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[3]/button[2]}来定位【充值】页面的【保存按钮】元素
+2019-03-21 14:46:33,120 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:33,176 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[3]/button[2]]】
+2019-03-21 14:46:35,177 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[2]/div[8]/div/div/span}来定位【充值】页面的【余额不足提示】元素
+2019-03-21 14:46:35,191 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:35,205 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge_cart']/div/div/div[2]/div[8]/div/div/span]】元素文本值:【充值金额不可大于余额】
+2019-03-21 14:46:37,566 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:46:37,602 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:37,673 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:46:37,673 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:46:37,715 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:38,013 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:46:40,203 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:46:40,228 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:40,243 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【338.10】
+2019-03-21 14:46:40,243 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[2]/a/div[2]/div[1]/span}来定位【公用】页面的【企业券】元素
+2019-03-21 14:46:40,256 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:40,269 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[2]/a/div[2]/div[1]/span]】元素文本值:【1,728.20】
+2019-03-21 14:46:40,269 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[3]/a/div[2]/div[1]/span}来定位【公用】页面的【可用余额】元素
+2019-03-21 14:46:40,284 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:40,298 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[3]/a/div[2]/div[1]/span]】元素文本值:【2】
+2019-03-21 14:46:40,298 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【338.1】,期望值为：【338.1】
+2019-03-21 14:46:40,298 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【充值金额不可大于余额】,期望值为：【充值金额不可大于余额】
+2019-03-21 14:46:41,298 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:46:41,333 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:41,383 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:46:43,569 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:46:43,578 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:43,593 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【338.10】
+2019-03-21 14:46:44,594 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【回收司机资金】页面的【司机会员按钮】元素
+2019-03-21 14:46:44,631 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:44,690 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 司机会员]】
+2019-03-21 14:46:44,690 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【回收司机资金】页面的【账户管理按钮】元素
+2019-03-21 14:46:44,810 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:45,283 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 账户管理]】
+2019-03-21 14:46:47,283 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[6]}来定位【机构司机】页面的【机构司机余额】元素
+2019-03-21 14:46:47,298 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:47,317 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[6]]】元素文本值:【96.5】
+2019-03-21 14:46:48,318 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='tr_129314']/button}来定位【公用】页面的【机构更多】元素
+2019-03-21 14:46:48,329 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:48,385 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='tr_129314']/button]】
+2019-03-21 14:46:48,385 - com.ui.base.Base -INFO - 根据{by:linkText,value:回收资金}来定位【回收司机资金】页面的【回收资金】元素
+2019-03-21 14:46:48,422 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:48,487 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 回收资金]】
+2019-03-21 14:46:49,488 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='backMemberCompanyMoney']/div/div/div[2]/div[4]/div/div/input}来定位【回收司机资金】页面的【回收金额】元素
+2019-03-21 14:46:49,500 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:49,501 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='backMemberCompanyMoney']/div/div/div[2]/div[4]/div/div/input]】中写入数据：【1】
+2019-03-21 14:46:49,560 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='backMemberCompanyMoney']/div/div/div[3]/button[2]}来定位【回收司机资金】页面的【保存】元素
+2019-03-21 14:46:49,577 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:49,657 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='backMemberCompanyMoney']/div/div/div[3]/button[2]]】
+2019-03-21 14:46:50,657 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[@class='modal-scrollable']/div/div/div/div[2]/button[2]}来定位【回收司机资金】页面的【确定】元素
+2019-03-21 14:46:50,669 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:50,725 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[@class='modal-scrollable']/div/div/div/div[2]/button[2]]】
+2019-03-21 14:46:52,100 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[6]}来定位【机构司机】页面的【机构司机余额】元素
+2019-03-21 14:46:52,244 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:52,261 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[6]]】元素文本值:【95.5】
+2019-03-21 14:46:52,393 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:46:52,443 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:52,525 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:46:52,525 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:46:52,563 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:52,651 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:46:55,661 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:46:55,676 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:55,689 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【338.10】
+2019-03-21 14:46:55,689 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【95.5】,期望值为：【95.5】
+2019-03-21 14:46:55,690 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【338.1】,期望值为：【338.1】
+2019-03-21 14:46:55,690 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:46:55,723 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:55,778 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:46:57,785 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:46:57,798 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:57,811 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【338.10】
+2019-03-21 14:46:58,812 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【回收司机资金】页面的【司机会员按钮】元素
+2019-03-21 14:46:58,849 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:58,907 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 司机会员]】
+2019-03-21 14:46:58,907 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【回收司机资金】页面的【账户管理按钮】元素
+2019-03-21 14:46:59,023 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:46:59,467 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 账户管理]】
+2019-03-21 14:47:01,467 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[6]}来定位【机构司机】页面的【机构司机余额】元素
+2019-03-21 14:47:01,481 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:01,497 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[6]]】元素文本值:【95.5】
+2019-03-21 14:47:02,498 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='tr_129314']/button}来定位【公用】页面的【机构更多】元素
+2019-03-21 14:47:02,510 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:02,562 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='tr_129314']/button]】
+2019-03-21 14:47:02,562 - com.ui.base.Base -INFO - 根据{by:linkText,value:回收资金}来定位【回收司机资金】页面的【回收资金】元素
+2019-03-21 14:47:02,600 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:02,668 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 回收资金]】
+2019-03-21 14:47:03,669 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='backMemberCompanyMoney']/div/div/div[2]/div[4]/div/div/input}来定位【回收司机资金】页面的【回收金额】元素
+2019-03-21 14:47:03,683 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:03,683 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='backMemberCompanyMoney']/div/div/div[2]/div[4]/div/div/input]】中写入数据：【96.5】
+2019-03-21 14:47:04,762 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='backMemberCompanyMoney']/div/div/div[3]/button[2]}来定位【回收司机资金】页面的【保存】元素
+2019-03-21 14:47:04,776 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:04,828 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='backMemberCompanyMoney']/div/div/div[3]/button[2]]】
+2019-03-21 14:47:06,829 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='backMemberCompanyMoney']/div/div/div[2]/div[7]/div/div/span}来定位【回收司机资金】页面的【超额提示】元素
+2019-03-21 14:47:06,849 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:06,863 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='backMemberCompanyMoney']/div/div/div[2]/div[7]/div/div/span]】元素文本值:【万金油回收资金超过限制!】
+2019-03-21 14:47:07,864 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='backMemberCompanyMoney']/div/div/div[3]/button[1]}来定位【回收司机资金】页面的【关闭按钮】元素
+2019-03-21 14:47:07,878 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:07,927 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='backMemberCompanyMoney']/div/div/div[3]/button[1]]】
+2019-03-21 14:47:10,329 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[6]}来定位【机构司机】页面的【机构司机余额】元素
+2019-03-21 14:47:10,341 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:10,355 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[6]]】元素文本值:【95.5】
+2019-03-21 14:47:11,481 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:47:11,520 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:11,589 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:47:11,589 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:47:11,631 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:11,888 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:47:15,088 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:47:15,103 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:15,117 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【338.10】
+2019-03-21 14:47:15,117 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【95.5】,期望值为：【95.5】
+2019-03-21 14:47:15,117 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【万金油回收资金超过限制!】,期望值为：【万金油回收资金超过限制!】
+2019-03-21 14:47:15,117 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【338.1】,期望值为：【338.1】
+2019-03-21 14:47:15,118 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:47:15,152 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:15,208 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:47:17,208 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:47:17,217 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:17,225 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【338.10】
+2019-03-21 14:47:18,226 - com.ui.base.Base -INFO - 根据{by:linkText,value:下属机构}来定位【机构充值】页面的【下属机构】元素
+2019-03-21 14:47:18,262 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:18,308 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 下属机构]】
+2019-03-21 14:47:18,308 - com.ui.base.Base -INFO - 根据{by:linkText,value:机构列表}来定位【机构充值】页面的【机构列表】元素
+2019-03-21 14:47:18,493 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:18,815 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 机构列表]】
+2019-03-21 14:47:20,817 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[3]}来定位【机构充值】页面的【余额】元素
+2019-03-21 14:47:20,832 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:20,848 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[3]]】元素文本值:【528.4】
+2019-03-21 14:47:20,848 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[4]}来定位【机构充值】页面的【历史储值】元素
+2019-03-21 14:47:20,861 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:20,874 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[4]]】元素文本值:【905】
+2019-03-21 14:47:21,876 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[6]/a}来定位【机构充值】页面的【充值】元素
+2019-03-21 14:47:21,890 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:21,947 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[6]/a]】
+2019-03-21 14:47:22,947 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='recharge']/div/div/div[2]/div[3]/div/div/input}来定位【机构充值】页面的【充值金额】元素
+2019-03-21 14:47:22,958 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:22,958 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='recharge']/div/div/div[2]/div[3]/div/div/input]】中写入数据：【1】
+2019-03-21 14:47:23,016 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='recharge']/div/div/div[3]/button[2]}来定位【机构充值】页面的【保存】元素
+2019-03-21 14:47:23,032 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:23,090 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='recharge']/div/div/div[3]/button[2]]】
+2019-03-21 14:47:24,091 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[7]/div/div/div/div[2]/button[2]}来定位【机构充值】页面的【确定】元素
+2019-03-21 14:47:24,101 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:24,152 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[7]/div/div/div/div[2]/button[2]]】
+2019-03-21 14:47:25,352 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[3]}来定位【机构充值】页面的【余额】元素
+2019-03-21 14:47:25,423 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:25,437 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[3]]】元素文本值:【529.4】
+2019-03-21 14:47:25,437 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[4]}来定位【机构充值】页面的【历史储值】元素
+2019-03-21 14:47:25,444 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:25,458 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[4]]】元素文本值:【906】
+2019-03-21 14:47:25,580 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:47:25,635 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:25,709 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:47:25,709 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:47:25,755 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:26,016 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:47:28,060 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:47:28,528 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:28,547 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【3.37】
+2019-03-21 14:47:28,547 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【529.4】,期望值为：【529.4】
+2019-03-21 14:47:28,547 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【906.0】,期望值为：【906.0】
+2019-03-21 14:47:28,547 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【3.37】,期望值为：【337.1】
+2019-03-21 14:47:30,892 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:47:30,932 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:30,985 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:47:32,986 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:47:33,008 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:33,016 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【337.10】
+2019-03-21 14:47:34,020 - com.ui.base.Base -INFO - 根据{by:linkText,value:下属机构}来定位【机构充值】页面的【下属机构】元素
+2019-03-21 14:47:34,060 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:34,112 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 下属机构]】
+2019-03-21 14:47:34,112 - com.ui.base.Base -INFO - 根据{by:linkText,value:机构列表}来定位【机构充值】页面的【机构列表】元素
+2019-03-21 14:47:34,300 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:34,574 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 机构列表]】
+2019-03-21 14:47:36,575 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[3]}来定位【机构充值】页面的【余额】元素
+2019-03-21 14:47:36,591 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:36,604 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[3]]】元素文本值:【529.4】
+2019-03-21 14:47:36,604 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[4]}来定位【机构充值】页面的【历史储值】元素
+2019-03-21 14:47:36,614 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:36,628 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[4]]】元素文本值:【906】
+2019-03-21 14:47:37,630 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[6]/a}来定位【机构充值】页面的【充值】元素
+2019-03-21 14:47:37,643 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:37,697 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[6]/a]】
+2019-03-21 14:47:38,698 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='recharge']/div/div/div[2]/div[3]/div/div/input}来定位【机构充值】页面的【充值金额】元素
+2019-03-21 14:47:38,710 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:38,710 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='recharge']/div/div/div[2]/div[3]/div/div/input]】中写入数据：【338.1】
+2019-03-21 14:47:38,791 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='recharge']/div/div/div[3]/button[2]}来定位【机构充值】页面的【保存】元素
+2019-03-21 14:47:38,802 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:38,864 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='recharge']/div/div/div[3]/button[2]]】
+2019-03-21 14:47:39,864 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge']/div/div/div[2]/div[5]/div/div/span}来定位【机构充值】页面的【超额提示】元素
+2019-03-21 14:47:39,876 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:39,891 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge']/div/div/div[2]/div[5]/div/div/span]】元素文本值:【充值金额不可大于余额!】
+2019-03-21 14:47:39,891 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge']/div/div/div[3]/button[1]}来定位【机构充值】页面的【关闭】元素
+2019-03-21 14:47:39,904 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:39,950 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //*[@id='recharge']/div/div/div[3]/button[1]]】
+2019-03-21 14:47:41,161 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[3]}来定位【机构充值】页面的【余额】元素
+2019-03-21 14:47:41,225 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:41,240 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[3]]】元素文本值:【529.4】
+2019-03-21 14:47:41,240 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[4]}来定位【机构充值】页面的【历史储值】元素
+2019-03-21 14:47:41,248 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:41,261 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[4]]】元素文本值:【906】
+2019-03-21 14:47:41,396 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:47:41,435 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:41,522 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:47:41,523 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 14:47:41,571 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:42,064 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 运营数据]】
+2019-03-21 14:47:44,252 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:47:44,269 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:44,286 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【337.10】
+2019-03-21 14:47:44,286 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【529.4】,期望值为：【529.4】
+2019-03-21 14:47:44,286 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【906.0】,期望值为：【906.0】
+2019-03-21 14:47:44,286 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【337.1】,期望值为：【337.1】
+2019-03-21 14:47:44,287 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 14:47:44,323 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:44,376 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 首页]】
+2019-03-21 14:47:46,377 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 14:47:46,386 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:46,400 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【337.10】
+2019-03-21 14:47:47,401 - com.ui.base.Base -INFO - 根据{by:linkText,value:下属机构}来定位【回收机构金额】页面的【下属机构】元素
+2019-03-21 14:47:47,436 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:47,482 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 下属机构]】
+2019-03-21 14:47:47,482 - com.ui.base.Base -INFO - 根据{by:linkText,value:机构列表}来定位【回收机构金额】页面的【机构列表】元素
+2019-03-21 14:47:47,667 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:47,935 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> link text: 机构列表]】
+2019-03-21 14:47:49,935 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[3]}来定位【回收机构金额】页面的【余额】元素
+2019-03-21 14:47:49,949 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:49,964 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[3]]】元素文本值:【529.4】
+2019-03-21 14:47:49,964 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='yidian_table']/tbody/tr[1]/td[4]}来定位【回收机构金额】页面的【历史储值】元素
+2019-03-21 14:47:49,975 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 14:47:49,990 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (0a8d6a36aa7bf4009c15691ee07c30e5)] -> xpath: .//*[@id='yidian_table']/tbody/tr[1]/td[4]]】元素文本值:【906】
+2019-03-21 14:47:51,991 - com.ui.base.Base -INFO - 根据{by:linkText,value:回收}来定位【回收机构金额】页面的【回收】元素
+2019-03-21 14:47:59,158 - com.ui.base.Base -ERROR - 元素定位失败
+2019-03-21 14:47:59,162 - com.ui.base.Base -ERROR - 元素点击出现异常：
+null
+2019-03-21 14:48:00,162 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='backrecharge']/div/div/div[2]/div[2]/div/div/input}来定位【回收机构金额】页面的【回收金额】元素
+2019-03-21 17:11:46,173 - com.ui.base.Base -INFO - 配置信息：浏览器类型:【chrome】，驱动文件路径：【src/main/resources/chromedriver.exe】
+2019-03-21 17:11:50,427 - com.ui.base.Base -INFO - *****打开chrome浏览器***
+2019-03-21 17:11:51,567 - com.ui.base.Base -INFO - 窗口最大化
+2019-03-21 17:11:53,764 - com.ui.base.Base -INFO - 根据{by:id,value:username}来定位【登陆页】页面的【手机号】元素
+2019-03-21 17:11:53,805 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:11:53,805 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> id: username]】中写入数据：【18311447530】
+2019-03-21 17:11:53,944 - com.ui.base.Base -INFO - 根据{by:name,value:password}来定位【登陆页】页面的【密码】元素
+2019-03-21 17:11:53,962 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:11:53,963 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> name: password]】中写入数据：【an1234】
+2019-03-21 17:11:54,039 - com.ui.base.Base -INFO - 根据{by:id,value:login_button}来定位【登陆页】页面的【登陆按钮】元素
+2019-03-21 17:11:54,054 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:11:54,123 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> id: login_button]】
+2019-03-21 17:11:55,127 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 17:11:57,312 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:11:57,391 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> link text: 首页]】
+2019-03-21 17:11:59,392 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 17:11:59,425 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:11:59,452 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【337.10】
+2019-03-21 17:11:59,452 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【充值】页面的【司机会员按钮】元素
+2019-03-21 17:11:59,491 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:11:59,549 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> link text: 司机会员]】
+2019-03-21 17:11:59,549 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【充值】页面的【账户管理按钮】元素
+2019-03-21 17:11:59,671 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:00,486 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> link text: 账户管理]】
+2019-03-21 17:12:01,486 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[2]/td[9]}来定位【充值】页面的【总部待领取金额】元素
+2019-03-21 17:12:01,500 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:01,565 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> xpath: //*[@id='yidian_table']/tbody/tr[2]/td[9]]】元素文本值:【0】
+2019-03-21 17:12:01,565 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[2]/td[13]/a}来定位【充值】页面的【充值按钮】元素
+2019-03-21 17:12:01,580 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:01,636 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> xpath: //*[@id='yidian_table']/tbody/tr[2]/td[13]/a]】
+2019-03-21 17:12:02,636 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input}来定位【充值】页面的【充值金额】元素
+2019-03-21 17:12:02,652 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:02,653 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> xpath: //*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input]】中写入数据：【1.11】
+2019-03-21 17:12:03,739 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[3]/button[2]}来定位【充值】页面的【保存按钮】元素
+2019-03-21 17:12:03,754 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:03,814 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> xpath: //*[@id='recharge_cart']/div/div/div[3]/button[2]]】
+2019-03-21 17:12:04,814 - com.ui.base.Base -INFO - 根据{by:xpath,value:/html/body/div[9]/div/div/div/div[2]/button[2]}来定位【充值】页面的【确定按钮】元素
+2019-03-21 17:12:04,829 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:04,886 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> xpath: /html/body/div[9]/div/div/div/div[2]/button[2]]】
+2019-03-21 17:12:06,887 - com.ui.base.Base -INFO - 根据{by:xpath,value:.//*[@id='batchCreateUser']/div[1]/div/div/div[2]/button[2]}来定位【充值】页面的【关闭按钮】元素
+2019-03-21 17:12:06,905 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:06,956 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> xpath: .//*[@id='batchCreateUser']/div[1]/div/div/div[2]/button[2]]】
+2019-03-21 17:12:10,378 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[2]/td[9]}来定位【充值】页面的【总部待领取金额】元素
+2019-03-21 17:12:10,391 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:10,407 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> xpath: //*[@id='yidian_table']/tbody/tr[2]/td[9]]】元素文本值:【1.11】
+2019-03-21 17:12:10,548 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 17:12:10,607 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:10,684 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> link text: 首页]】
+2019-03-21 17:12:10,684 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 17:12:10,740 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:10,810 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> link text: 运营数据]】
+2019-03-21 17:12:12,812 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 17:12:12,828 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:12,843 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【337.10】
+2019-03-21 17:12:12,854 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【337.1】,期望值为：【335.99】
+2019-03-21 17:12:15,259 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 17:12:15,289 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:15,327 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> link text: 首页]】
+2019-03-21 17:12:17,328 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 17:12:17,341 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:17,349 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【337.10】
+2019-03-21 17:12:17,349 - com.ui.base.Base -INFO - 根据{by:linkText,value:司机会员}来定位【充值】页面的【司机会员按钮】元素
+2019-03-21 17:12:17,387 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:17,443 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> link text: 司机会员]】
+2019-03-21 17:12:17,443 - com.ui.base.Base -INFO - 根据{by:linkText,value:账户管理}来定位【充值】页面的【账户管理按钮】元素
+2019-03-21 17:12:17,565 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:18,029 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> link text: 账户管理]】
+2019-03-21 17:12:19,029 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[2]/td[9]}来定位【充值】页面的【总部待领取金额】元素
+2019-03-21 17:12:19,039 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:19,057 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> xpath: //*[@id='yidian_table']/tbody/tr[2]/td[9]]】元素文本值:【1.11】
+2019-03-21 17:12:19,058 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[2]/td[13]/a}来定位【充值】页面的【充值按钮】元素
+2019-03-21 17:12:19,074 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:19,132 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> xpath: //*[@id='yidian_table']/tbody/tr[2]/td[13]/a]】
+2019-03-21 17:12:20,133 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input}来定位【充值】页面的【充值金额】元素
+2019-03-21 17:12:20,146 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:20,146 - com.ui.base.Base -INFO - 向【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> xpath: //*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input]】中写入数据：【1.11】
+2019-03-21 17:12:21,234 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[3]/button[2]}来定位【充值】页面的【保存按钮】元素
+2019-03-21 17:12:21,247 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:21,308 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> xpath: //*[@id='recharge_cart']/div/div/div[3]/button[2]]】
+2019-03-21 17:12:22,308 - com.ui.base.Base -INFO - 根据{by:xpath,value:/html/body/div[9]/div/div/div/div[2]/button[2]}来定位【充值】页面的【确定按钮】元素
+2019-03-21 17:12:22,324 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:22,387 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> xpath: /html/body/div[9]/div/div/div/div[2]/button[2]]】
+2019-03-21 17:12:23,388 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[9]/div/div/div/div[1]/div}来定位【充值】页面的【错误提示】元素
+2019-03-21 17:12:23,402 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:23,417 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> xpath: //div[9]/div/div/div/div[1]/div]】元素文本值:【同一金额、同一个账号3分钟内不能重复分配!】
+2019-03-21 17:12:24,418 - com.ui.base.Base -INFO - 根据{by:xpath,value:/html/body/div[9]/div/div/div/div[2]/button}来定位【充值】页面的【ok按钮】元素
+2019-03-21 17:12:24,433 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:24,478 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> xpath: /html/body/div[9]/div/div/div/div[2]/button]】
+2019-03-21 17:12:25,478 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='recharge_cart']/div/div/div[3]/button[1]}来定位【充值】页面的【关闭】元素
+2019-03-21 17:12:25,494 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:25,547 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> xpath: //*[@id='recharge_cart']/div/div/div[3]/button[1]]】
+2019-03-21 17:12:28,949 - com.ui.base.Base -INFO - 根据{by:xpath,value://*[@id='yidian_table']/tbody/tr[2]/td[9]}来定位【充值】页面的【总部待领取金额】元素
+2019-03-21 17:12:30,676 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:30,698 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> xpath: //*[@id='yidian_table']/tbody/tr[2]/td[9]]】元素文本值:【1.11】
+2019-03-21 17:12:30,849 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 17:12:30,903 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:31,004 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> link text: 首页]】
+2019-03-21 17:12:31,005 - com.ui.base.Base -INFO - 根据{by:linkText,value:运营数据}来定位【公用】页面的【运营数据】元素
+2019-03-21 17:12:31,065 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:31,149 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> link text: 运营数据]】
+2019-03-21 17:12:33,163 - com.ui.base.Base -INFO - 根据{by:xpath,value://div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span}来定位【公用】页面的【万金油系统余额】元素
+2019-03-21 17:12:33,179 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:33,195 - com.ui.base.Base -INFO - 获取【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> xpath: //div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span]】元素文本值:【335.99】
+2019-03-21 17:12:33,195 - com.ui.util.AssertUtil -INFO - 断言比较两者的值是否一致，实际值为：【335.99】,期望值为：【337.1】
+2019-03-21 17:12:35,496 - com.ui.base.Base -INFO - 根据{by:linkText,value:首页}来定位【公用】页面的【首页】元素
+2019-03-21 17:12:35,533 - com.ui.base.Base -INFO - 元素定位成功
+2019-03-21 17:12:35,595 - com.ui.base.Base -INFO - 点击页面元素：【[[ChromeDriver: chrome on XP (4532b29a147eacc68d8d9d6065969280)] -> link text: 首页]】

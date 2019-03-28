@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--测试套件配置文件的约束是有dtd文件控制的-->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--定义一个测试套件-->
+<suite name="万金油1.0-VIP端">
+    <!--定义一个测试集合-->
+
+    <test name="企业券——总管理员登录">
+        <classes>
+            <class name="com.ui.case2.tvip_check.checkLogin"></class>
+        </classes>
+    </test>
+
+    <test name="回收机构资金">
+        <classes>
+            <class name="com.ui.case2.tvip_qyq_check.transferCase"></class>
+        </classes>
+    </test>
+
+
+
+    <!---定义一个参数-->
+    <parameter name="browserType" value="chrome"></parameter>
+    <!--定义驱动文件相对路径-->
+    <parameter name="driverPath" value="src/main/resources/chromedriver.exe"></parameter>
+
+</suite>

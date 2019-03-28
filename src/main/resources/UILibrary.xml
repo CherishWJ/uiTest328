@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--1.将页面元素抽出来放置于xml文件中，
+     2.基于页面去封装当前页面的元素（面向页面，就是一个页面是一个对象）
+     3.通过dom4j解析元素
+     -->
+<Pages>
+    <!--一个page一个页面对象-->
+    <Page keyword="登陆页">
+        <!--by属性告诉定位者处理元素调用元素时候的方式
+        value属性：选择器的值
+        keyword属性，可以实现关键字驱动，页面的关键字属性
+        -->
+        <UIElement by="id" value="username" keyword="手机号"></UIElement>
+        <UIElement by="name" value="password" keyword="密码"></UIElement>
+        <UIElement by="id" value="login_button" keyword="登陆按钮"></UIElement>
+        <UIElement keyword="错误提示" by="xpath" value=".//*[@id='yd_password']/div[1]"></UIElement>
+        <UIElement keyword="登录名" by="linkText" value="王文静"></UIElement>
+
+    </Page>
+    <Page keyword="公用">
+        <UIElement keyword="首页" by="linkText" value="首页"></UIElement>
+        <UIElement keyword="运营数据" by="linkText" value="运营数据"></UIElement>
+        <UIElement keyword="万金油系统余额" by="xpath" value="//div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span" ></UIElement>
+        <UIElement keyword="企业券" by="xpath" value="//div[3]/div[2]/div/div[2]/div[2]/a/div[2]/div[1]/span"></UIElement>
+        <UIElement keyword="可用余额" by="xpath" value="//div[3]/div[2]/div/div[2]/div[3]/a/div[2]/div[1]/span"></UIElement>
+        <UIElement keyword="总部更多" by="xpath" value="//*[@id='tr_129313']/button"></UIElement>
+        <UIElement keyword="机构更多" by="xpath" value="//*[@id='tr_129314']/button"></UIElement>
+        <UIElement keyword="待审核" by="xpath" value="//*[@id='yidian_table']/tbody/tr/td[10]"></UIElement>
+        <UIElement keyword="退出登录" by="linkText" value="退出登录"></UIElement>
+        <UIElement keyword="待审核金额" by="xpath" value="/html/body/div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[3]/span"></UIElement>
+
+    </Page>
+
+    <Page keyword="测试公用">
+        <UIElement keyword="首页" by="linkText" value="首页"></UIElement>
+        <UIElement keyword="运营数据" by="linkText" value="运营数据"></UIElement>
+        <UIElement keyword="万金油系统余额" by="xpath" value="//div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[1]/span" ></UIElement>
+        <UIElement keyword="企业券" by="xpath" value="//div[3]/div[2]/div/div[2]/div[2]/a/div[2]/div[1]/span"></UIElement>
+        <UIElement keyword="可用余额" by="xpath" value="//div[3]/div[2]/div/div[2]/div[3]/a/div[2]/div[1]/span"></UIElement>
+        <UIElement keyword="总部更多" by="xpath" value="//*[@id='tr_11905']/button"></UIElement>
+        <UIElement keyword="机构更多" by="xpath" value="//*[@id='tr_12457']/button"></UIElement>
+        <UIElement keyword="待审核" by="xpath" value="//*[@id='yidian_table']/tbody/tr/td[10]"></UIElement>
+        <UIElement keyword="退出登录" by="linkText" value="退出登录"></UIElement>
+        <UIElement keyword="待审核金额" by="xpath" value="/html/body/div[3]/div[2]/div/div[2]/div[1]/a/div[2]/div[3]/span"></UIElement>
+        <UIElement keyword="回收机构" by="xpath" value="//*[@id='tr_289']"></UIElement>
+        <UIElement keyword="机构司机充值" by="linkText" value="充值"></UIElement>
+        <UIElement keyword="配置更多" by="id" value="tr_1253"></UIElement>
+    </Page>
+
+
+    <Page keyword="新建账户">
+        <UIElement keyword="司机会员按钮" by="linkText" value="司机会员"></UIElement>
+        <UIElement keyword="新建账户按钮" by="linkText" value="新建账户"></UIElement>
+        <UIElement keyword="司机姓名" by="name" value="name"></UIElement>
+        <UIElement keyword="手机号" by="id" value="username"></UIElement>
+        <UIElement keyword="身份证号" by="id" value="user_code"></UIElement>
+        <UIElement keyword="车牌号" by="id" value="car_no"></UIElement>
+        <UIElement keyword="充值金额" by="name" value="money"></UIElement>
+        <UIElement keyword="提交按钮" by="xpath" value="//form[@class='form-horizontal']/div[2]/div/div/button"></UIElement>
+        <UIElement keyword="验证手机" by="xpath" value="//*[@id='yidian_table']/tbody/tr[1]/td[3]"></UIElement>
+        <UIElement keyword="待领取" by="xpath" value=".//*[@id='yidian_table']/tbody/tr[1]/td[9]"></UIElement>
+        <UIElement keyword="已存在提示" by="xpath" value="//*[@id='username-error']"></UIElement>
+        <UIElement keyword="余额" by="xpath" value="//form[@class='form-horizontal']/div[1]/div[7]/div[1]/div/label/span"></UIElement>
+        <UIElement keyword="余额不足提示" by="id" value="money-error"></UIElement>
+    </Page>
+
+    <Page keyword="充值">
+        <UIElement keyword="司机会员按钮" by="linkText" value="司机会员"></UIElement>
+        <UIElement keyword="账户管理按钮" by="linkText" value="账户管理"></UIElement>
+        <UIElement keyword="充值按钮" by="xpath" value="//*[@id='yidian_table']/tbody/tr[2]/td[13]/a"></UIElement>
+        <UIElement keyword="充值金额" by="xpath" value="//*[@id='recharge_cart']/div/div/div[2]/div[3]/div[2]/div/input"></UIElement>
+        <UIElement keyword="保存按钮" by="xpath" value="//*[@id='recharge_cart']/div/div/div[3]/button[2]"></UIElement>
+        <UIElement keyword="确定按钮" by="xpath" value="/html/body/div[9]/div/div/div/div[2]/button[2]"></UIElement>
+        <UIElement keyword="关闭按钮" by="xpath" value=".//*[@id='batchCreateUser']/div[1]/div/div/div[2]/button[2]"></UIElement>
+        <UIElement keyword="错误提示" by="xpath" value="//div[9]/div/div/div/div[1]/div"></UIElement>
+        <UIElement keyword="总部待领取金额" by="xpath" value="//*[@id='yidian_table']/tbody/tr[2]/td[9]"></UIElement>
+        <UIElement keyword="ok按钮" by="xpath" value="/html/body/div[9]/div/div/div/div[2]/button"></UIElement>
+        <UIElement keyword="关闭" by="xpath" value="//*[@id='recharge_cart']/div/div/div[3]/button[1]"></UIElement>
+        <UIElement keyword="余额不足提示" by="xpath" value="//*[@id='recharge_cart']/div/div/div[2]/div[8]/div/div/span"></UIElement>
+    </Page>
+
+    <Page keyword="机构司机">
+        <UIElement keyword="机构司机待领取" by="xpath" value="//*[@id='yidian_table']/tbody/tr[1]/td[9]"></UIElement>
+        <UIElement keyword="机构司机余额" by="xpath" value=".//*[@id='yidian_table']/tbody/tr[1]/td[6]"></UIElement>
+        <UIElement keyword="机构余额" by="xpath" value="//*[@id='recharge_cart']/div/div/div[2]/div[1]/span"></UIElement>
+        <UIElement keyword="机构充值" by="xpath" value="//*[@id='yidian_table']/tbody/tr[1]/td[13]/a"></UIElement>
+
+    </Page>
+
+    <Page keyword="出纳">
+        <UIElement keyword="总部司机待审核" by="xpath" value="//*[@id='yidian_table']/tbody/tr[2]/td[10]"></UIElement>
+        <UIElement keyword="机构司机待审核" by="xpath" value="//*[@id='yidian_table']/tbody/tr[1]/td[10]"></UIElement>
+    </Page>
+
+
+    <Page keyword="修改司机信息">
+        <UIElement keyword="司机会员按钮" by="linkText" value="司机会员"></UIElement>
+        <UIElement keyword="账户管理按钮" by="linkText" value="账户管理"></UIElement>
+        <UIElement keyword="修改按钮" by="linkText" value="修改"></UIElement>
+        <UIElement keyword="姓名" by="name" value="name"></UIElement>
+        <UIElement keyword="手机号" by="name" value="username"></UIElement>
+        <UIElement keyword="身份证号" by="id" value="user_code"></UIElement>
+        <UIElement keyword="车牌号" by="id" value="car_no"></UIElement>
+        <UIElement keyword="司机类型" by="xpath" value="html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div/form/div[1]/div[6]/div/div/label[1]/div/in"></UIElement>
+        <UIElement keyword="提交按钮" by="xpath" value="html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div/form/div[2]/div/div/button"></UIElement>
+        <UIElement keyword="实际姓名" by="xpath" value="//*[@id='yidian_table']/tbody/tr[1]/td[2]"></UIElement>
+        <UIElement keyword="实际手机号" by="xpath" value="//*[@id='yidian_table']/tbody/tr[1]/td[3]"></UIElement>
+        <UIElement keyword="实际身份证号" by="xpath" value="//*[@id='yidian_table']/tbody/tr[1]/td[4]"></UIElement>
+        <UIElement keyword="实际车牌号" by="xpath" value="//*[@id='yidian_table']/tbody/tr[1]/td[5]"></UIElement>
+        <UIElement keyword="重复提示" by="id" value="username-error"></UIElement>
+    </Page>
+
+    <Page keyword="撤销待领取">
+        <UIElement keyword="司机会员按钮" by="linkText" value="司机会员"></UIElement>
+        <UIElement keyword="账户管理按钮" by="linkText" value="账户管理"></UIElement>
+        <UIElement keyword="撤销待领取" by="linkText" value="撤销待领取"></UIElement>
+        <UIElement keyword="确认按钮" by="xpath" value="//div[@class='modal-scrollable']/div/div/div/div[2]/button[2]"></UIElement>
+        <UIElement keyword="实际待领取金额" by="xpath" value="//*[@id='yidian_table']/tbody/tr[2]/td[9]"></UIElement>
+        <UIElement keyword="更多按钮" by="xpath" value="//*[@id='tr_129313']/button"></UIElement>
+    </Page>
+
+    <Page keyword="冻结">
+        <UIElement keyword="司机会员按钮" by="linkText" value="司机会员"></UIElement>
+        <UIElement keyword="账户管理按钮" by="linkText" value="账户管理"></UIElement>
+        <UIElement keyword="更多" by="xpath" value="//*[@id='tr_11905']/button"></UIElement>
+        <UIElement keyword="冻结资金" by="linkText" value="冻结"></UIElement>
+        <UIElement keyword="解冻资金" by="linkText" value="解冻"></UIElement>
+        <UIElement keyword="确定" by="xpath" value="/html/body/div[7]/div/div/div/div[2]/button[2]"></UIElement>
+        <UIElement keyword="更多按钮" by="xpath" value="//*[@id='tr_129313']/button"></UIElement>
+
+    </Page>
+
+    <Page keyword="回收司机资金">
+        <UIElement keyword="司机会员按钮" by="linkText" value="司机会员"></UIElement>
+        <UIElement keyword="账户管理按钮" by="linkText" value="账户管理"></UIElement>
+        <UIElement keyword="更多" by="xpath" value=".//*[@id='tr_129313']/button"></UIElement>
+        <UIElement keyword="回收资金" by="linkText" value="回收资金"></UIElement>
+        <UIElement keyword="回收金额" by="xpath" value=".//*[@id='backMemberCompanyMoney']/div/div/div[2]/div[4]/div/div/input"></UIElement>
+        <UIElement keyword="保存" by="xpath" value=".//*[@id='backMemberCompanyMoney']/div/div/div[3]/button[2]"></UIElement>
+        <UIElement keyword="确定" by="xpath" value="//div[@class='modal-scrollable']/div/div/div/div[2]/button[2]"></UIElement>
+        <UIElement keyword="余额" by="xpath" value=".//*[@id='yidian_table']/tbody/tr[2]/td[6]"></UIElement>
+        <UIElement keyword="超额提示" by="xpath" value="//*[@id='backMemberCompanyMoney']/div/div/div[2]/div[7]/div/div/span"></UIElement>
+        <UIElement keyword="关闭按钮" by="xpath" value="//*[@id='backMemberCompanyMoney']/div/div/div[3]/button[1]"></UIElement>
+
+    </Page>
+
+    <Page keyword="销户">
+        <UIElement keyword="司机会员按钮" by="linkText" value="司机会员"></UIElement>
+        <UIElement keyword="账户管理按钮" by="linkText" value="账户管理"></UIElement>
+        <UIElement keyword="销户" by="linkText" value="销户"></UIElement>
+        <UIElement keyword="确定" by="xpath" value="//div[@class='modal-scrollable']/div/div/div/div[2]/button[2]"></UIElement>
+        <UIElement keyword="余额" by="xpath" value=".//*[@id='yidian_table']/tbody/tr[1]/td[6]"></UIElement>
+        <UIElement keyword="待领取金额" by="xpath" value=".//*[@id='yidian_table']/tbody/tr/td[9]"></UIElement>
+
+    </Page>
+
+    <Page keyword="导入充值">
+        <UIElement keyword="司机会员按钮" by="linkText" value="司机会员"></UIElement>
+        <UIElement keyword="账户管理按钮" by="linkText" value="账户管理"></UIElement>
+        <UIElement keyword="批量导入按钮" by="id" value="pickfiles"></UIElement>
+        <UIElement keyword="提交按钮" by="xpath" value="//*[@id='gridSystemModalLabel']/div/div/div[3]/button[2]"></UIElement>
+        <UIElement keyword="确定按钮" by="xpath" value=""></UIElement>
+        <UIElement keyword="余额不足提示" by="xpath" value=".//*[@id='recharge_cart']/div/div/div[2]/div[8]/div"></UIElement>
+    </Page>
+
+    <Page keyword="创建机构">
+        <UIElement keyword="下属机构" by="linkText" value="下属机构"></UIElement>
+        <UIElement keyword="创建机构" by="linkText" value="创建机构"></UIElement>
+        <UIElement keyword="机构名称" by="id" value="subname"></UIElement>
+        <UIElement keyword="可操作资金" by="linkText" value="html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div/form/div[1]/div[3]/div/div/button"></UIElement>
+        <UIElement keyword="不可操作资金" by="linkText" value="html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div/form/div[1]/div[3]/div/div/button"></UIElement>
+        <UIElement keyword="创建新管理员" by="xpath" value="html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div/form/div[1]/div[5]/div[2]/div/ins"></UIElement>
+        <UIElement keyword="管理员手机号" by="id" value="username"></UIElement>
+        <UIElement keyword="管理员姓名" by="name" value="nickname"></UIElement>
+        <UIElement keyword="提交按钮" by="xpath" value="html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div/form/div[4]/div/div/button"></UIElement>
+        <UIElement keyword="机构名验证" by="xpath" value="//*[@id='yidian_table']/tbody/tr[1]/td[2]"></UIElement>
+        <UIElement keyword="万金油系统余额" by="xpath" value="//*[@class='number']/span"></UIElement>
+        <UIElement keyword="首页" by="linkText" value="首页"></UIElement>
+        <UIElement keyword="运营数据" by="linkText" value="运营数据"></UIElement>
+        <UIElement keyword="企业券" by="xpath" value="html/body/div[3]/div[2]/div/div[2]/div[2]/a/div[2]/div[1]/span"></UIElement>
+        <UIElement keyword="可用余额" by="xpath" value="html/body/div[3]/div[2]/div/div[2]/div[3]/a/div[2]/div[1]/span"></UIElement>
+        <UIElement keyword="机构已存在提示" by="id" value="subname-error"></UIElement>
+        <UIElement keyword="管理员重复提示" by="id" value="username-error"></UIElement>
+
+    </Page>
+
+    <Page keyword="机构充值">
+        <UIElement keyword="会员" by="linkText" value="会员"></UIElement>
+        <UIElement keyword="下属机构" by="linkText" value="下属机构"></UIElement>
+        <UIElement keyword="机构列表" by = "linkText" value="机构列表"></UIElement>
+        <UIElement keyword="充值" by="xpath" value=".//*[@id='yidian_table']/tbody/tr[1]/td[6]/a"></UIElement>
+        <UIElement keyword="充值金额" by="xpath" value=".//*[@id='recharge']/div/div/div[2]/div[3]/div/div/input"></UIElement>
+        <UIElement keyword="保存" by="xpath" value=".//*[@id='recharge']/div/div/div[3]/button[2]"></UIElement>
+        <UIElement keyword="确定" by="xpath" value="//div[7]/div/div/div/div[2]/button[2]"></UIElement>
+        <UIElement keyword="关闭" by="xpath" value="//*[@id='recharge']/div/div/div[3]/button[1]"></UIElement>
+        <UIElement keyword="余额" by="xpath" value=".//*[@id='yidian_table']/tbody/tr[1]/td[3]"></UIElement>
+        <UIElement keyword="历史储值" by="xpath" value=".//*[@id='yidian_table']/tbody/tr[1]/td[4]"></UIElement>
+        <UIElement keyword="超额提示" by="xpath" value="//*[@id='recharge']/div/div/div[2]/div[5]/div/div/span"></UIElement>
+
+    </Page>
+
+    <Page keyword="回收机构金额">
+        <UIElement keyword="会员" by="linkText" value="会员"></UIElement>
+        <UIElement keyword="下属机构" by="linkText" value="下属机构"></UIElement>
+        <UIElement keyword="机构列表" by = "linkText" value="机构列表"></UIElement>
+        <UIElement keyword="更多" by="xpath" value="//*[@id='tr_396']/button"></UIElement>
+        <UIElement keyword="回收" by="linkText" value="回收"></UIElement>
+        <UIElement keyword="回收金额" by="xpath" value=".//*[@id='backrecharge']/div/div/div[2]/div[2]/div/div/input"></UIElement>
+        <UIElement keyword="保存" by="xpath" value=".//*[@id='backrecharge']/div/div/div[3]/button[2]"></UIElement>
+        <UIElement keyword="确定" by="xpath" value="//div[7]/div/div/div/div[2]/button[2]"></UIElement>
+        <UIElement keyword="余额" by="xpath" value=".//*[@id='yidian_table']/tbody/tr[1]/td[3]"></UIElement>
+        <UIElement keyword="历史储值" by="xpath" value=".//*[@id='yidian_table']/tbody/tr[1]/td[4]"></UIElement>
+
+        <UIElement keyword="超额提示" by="xpath" value="//*[@id='backrecharge']/div/div/div[2]/div[4]/div/div/span"></UIElement>
+        <UIElement keyword="关闭" by="xpath" value="//*[@id='backrecharge']/div/div/div[3]/button[1]"></UIElement>
+
+    </Page>
+
+    <Page keyword="添加操作员">
+        <UIElement keyword="操作员管理" by="linkText" value="操作员管理"></UIElement>
+        <UIElement keyword="添加操作员" by="linkText" value="添加操作员"></UIElement>
+        <UIElement keyword="姓名" by="linkText" value="添加操作员"></UIElement>
+        <UIElement keyword="姓名" by="name" value="nickname"></UIElement>
+        <UIElement keyword="手机号" by="id" value="username"></UIElement>
+        <UIElement keyword="所属机构" by="xpath" value="/html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div/form/div[1]/div[3]/div/label[1]"></UIElement>
+        <UIElement keyword="角色出纳" by="xpath" value="//*[@id='show_role']/div/table/tbody/tr[1]/td[1]/div/ins"></UIElement>
+        <UIElement keyword="角色审核员" by="xpath" value="//*[@id='show_role']/div/table/tbody/tr[2]/td[1]/div/ins"></UIElement>
+        <UIElement keyword="角色车队长" by="xpath" value="//*[@id='show_role']/div/table/tbody/tr[3]/td[1]/div/ins"></UIElement>
+        <UIElement keyword="提交按钮" by="xpath" value="/html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div/form/div[2]/div/div/button"></UIElement>
+    </Page>
+
+    <Page keyword="企业转账">
+        <UIElement keyword="企业结算管理" by="linkText" value="企业结算管理"></UIElement>
+        <UIElement keyword="企业账户转账" by="linkText" value="企业账户转账"></UIElement>
+        <UIElement keyword="新加转账企业" by="xpath" value="//ins[@class='iCheck-helper']"></UIElement>
+        <UIElement keyword="企业名称" by="id" value="company_smal_name"></UIElement>
+        <UIElement keyword="企业万金油账号" by="id" value="zz_number"></UIElement>
+        <UIElement keyword="转账金额" by="xpath" value="//input[@name='money']"></UIElement>
+        <UIElement keyword="转账" by="xpath" value="//form[@class='form-horizontal']/div[2]/div/div/button"></UIElement>
+        <UIElement keyword="确定" by="xpath" value="html/body/div[4]/div/div/div[2]/button[2]"></UIElement>
+        <UIElement keyword="实际转账金额" by="xpath" value="//*[@id='yidian_table']/tbody/tr[1]/td[5]"></UIElement>
+        <UIElement keyword="取消打印" by="close" value="close"></UIElement>
+        <UIElement keyword="超额提示" by="id" value="money-error"></UIElement>
+    </Page>
+
+    <Page keyword="企业钱包">
+        <UIElement keyword="手机号" by="name" value="username"></UIElement>
+        <UIElement keyword="密码" by="name" value="password"></UIElement>
+        <UIElement keyword="登录" by="id" value="login_button"></UIElement>
+
+        <UIElement keyword="企业会员" by="linkText" value="企业会员"></UIElement>
+        <UIElement keyword="企业账户管理" by="linkText" value="企业账户管理"></UIElement>
+        <UIElement keyword="企业名称" by="xpath" value="//*[@id='yidian_search_form']/div[1]/div[1]/div[1]/div/div/span/input[2]"></UIElement>
+        <UIElement keyword="查询" by="id" value="yidian_search"></UIElement>
+        <UIElement keyword="更多" by="id" value="tr_4497"></UIElement>
+        <UIElement keyword="修改企业配置" by="linkText" value="修改企业配置"></UIElement>
+        <UIElement keyword="是否开启" by="id" value="company_wallet_status"></UIElement>
+        <UIElement keyword="提交" by="xpath" value="/html/body/div[3]/div[2]/div/div[2]/div/div/div/div[1]/div/form/div/div[2]/div[20]/div/div/button[2]"></UIElement>
+        <UIElement keyword="生效时间" by="name" value="wallet_start_time"></UIElement>
+        <UIElement keyword="截止时间" by="name" value="wallet_end_time"></UIElement>
+        <UIElement keyword="额度" by="name" value="company_wallet_percent"></UIElement>
+        <UIElement keyword="个人中心" by="id" value="system_user_info_head_img"></UIElement>
+
+
+
+
+    </Page>
+
+    <Page keyword="机构需审核">
+        <UIElement keyword="待审核" by="xpath" value="//*[@id='yidian_table']/tbody/tr/td[10]" ></UIElement>
+    </Page>
+
+
+
+    <Page keyword="创建消费订单">
+        <UIElement keyword="个人会员" by="linkText" value="个人会员"></UIElement>
+        <UIElement keyword="创建订单" by="linkText" value="创建订单"></UIElement>
+        <UIElement keyword="司机姓名" by="id" value="mc_id"></UIElement>
+        <UIElement keyword="消费油站" by="id" value="si_id-input"></UIElement>
+        <UIElement keyword="收款金额" by="id" value="total_money"></UIElement>
+        <UIElement keyword="提交" by="id" value="create_order_button"></UIElement>
+
+
+    </Page>
+
+
+
+</Pages>
